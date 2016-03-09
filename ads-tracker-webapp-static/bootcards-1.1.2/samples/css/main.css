@@ -1,0 +1,56 @@
+.list-group a.list-group-item {
+    height: 150px;
+}
+.list-group-item img {
+    height: 120px;
+    width: 160px;
+}
+.list-group .list-group-item .list-group-item-text.price {
+    font-weight: bold;
+    font-size: larger;
+}
+.bootcards-list .search-form, .bootcards-list form {
+    background: #F0F0F1;
+    border-bottom: 1px solid #CCC
+}
+.bootcards-list .search-form .btn, .bootcards-list form .btn {
+    color: #595B60;
+}
+
+a.list-group-item.selected:before {
+    color: #00b2ef;
+    font-size: 20px;
+}
+
+/*.bootcards-richtext>.panel-body {*/
+    /*padding: 0 25px 25px 25px;*/
+/*}*/
+
+.details-img{
+    margin: 20px;
+}
+
+button.btn.manual-refresh{
+    font-size: 12px;
+}
+
+.bootcards-list.single-mode{
+    width: 95%;
+    margin-left: 2.5%;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition:all 1s;
+}
+.bootcards-list.dual-mode{
+    /*width: auto;*/
+    /*margin-left: auto;*/
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.single-mode .panel {
+    border: 1px solid #ddd;
+}
