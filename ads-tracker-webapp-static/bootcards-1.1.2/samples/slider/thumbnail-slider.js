@@ -15,7 +15,7 @@ var thumbnailSliderOptions =
     initSliderByCallingInitFunc: false,
     rightGap: 0,
     keyboardNav: false,
-    mousewheelNav: true,
+    mousewheelNav: false,
     before: function (currentIdx, nextIdx, manual) {
         if (typeof nslider != "undefined") nslider.displaySlide(nextIdx);
     },

@@ -45,7 +45,7 @@
             <i class="fa fa-lg fa-bars"></i><span>Menu</span>
         </button>
 
-        <a class="navbar-brand" title="Bootcards Starter" href="/">Ads-Tracker</a>
+        <a title="Bootcards Starter" href="/"><img src="../dist/imgs/logo.png"/> </a>
 
         <!--right aligned button-->
 
@@ -125,7 +125,6 @@
 
     <!-- This is where you come in... -->
     <!-- I've added some sample data below so you can get a feel for the required markup -->
-
     <div class="row">
 
         <!-- left list column -->
@@ -133,19 +132,24 @@
             <div class="panel panel-default">
                 <div class="panel-body">
                     <div class="search-form" style="border-bottom: 0; text-align: center; color: #595B60">
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div class="form-group"><span>www.autoscout24.de</span>
-                                    <button type="button" class="btn btn-warning navbar-right hidden-sm manual-refresh">
-                                        <i class="fa fa-lg fa-refresh"></i><span>Refresh</span>
-                                    </button>
+                        <!--<div class="row">-->
+                        <!--<div class="col-xs-11">-->
+                        <!--<div class="form-group"><span>www.autoscout24.de</span>-->
+                        <!--&lt;!&ndash;<button type="button" class="btn btn-warning navbar-right hidden-sm manual-refresh">&ndash;&gt;-->
+                        <!--&lt;!&ndash;<i class="fa fa-lg fa-refresh"></i><span>Refresh</span>&ndash;&gt;-->
+                        <!--&lt;!&ndash;</button>&ndash;&gt;-->
 
 
-                                </div>
-                            </div>
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="col-xs-1">-->
+                        <!--<a class="btn btn-primary btn-block" href="#" id="slideMode-on">-->
+                        <!--<i class="fa fa-angle-double-right"></i>-->
+                        <!--</a>-->
+                        <!--</div>-->
 
 
-                        </div>
+                        <!--</div>-->
                     </div>
                     <div class="search-form">
                         <div class="row">
@@ -156,9 +160,12 @@
                                 </div>
                             </div>
                             <div class="col-xs-2">
-                                <a class="btn btn-primary btn-block" href="#" onclick="bootcards.hideOffCanvasMenu()">
-                                    <i class="fa fa-filter"></i>
-                                    <span>Filter options</span>
+                                <a class="btn btn-primary btn-block filters" href="#"
+                                   onclick="bootcards.hideOffCanvasMenu()">
+                                    <div class="filter-children">
+                                        <i class="fa fa-filter"></i>
+                                        <span>Filter options</span>
+                                    </div>
                                 </a>
                             </div>
                             <div class="col-xs-1">
@@ -166,6 +173,7 @@
                                     <i class="fa fa-angle-double-right"></i>
                                 </a>
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -174,76 +182,162 @@
                 <div class="list-group">
 
                     <!-- list of sample data -->
+                    <a class="list-group-item advert pinned" href="#">
+                        <div class="row">
+                            <div class="general col-sm-10">
 
-                    <a class="list-group-item advert" href="#">
-                        <img src="img/moto1.jpg" class="img-rounded pull-left">
-                        <h4 class="list-group-item-heading">Suzuki SV1000S</h4>
+                                <img src="img/moto1.jpg" class="img-rounded pull-left">
+                                <h4 class="list-group-item-heading">Suzuki SV1000S</h4>
 
-                        <p class="list-group-item-text">Letnik 1. registracije 2005</p>
+                                <p class="list-group-item-text">Letnik 1. registracije 2005</p>
 
-                        <p class="list-group-item-text">260000 km</p>
+                                <p class="list-group-item-text">260000 km</p>
 
-                        <p class="list-group-item-text price">3.300 €</p>
+                                <p class="list-group-item-text price">3.300 €</p>
+                            </div>
+                            <div class="col-sm-1 actions">
+                                <div class="col-md-6 when-single">
+                                    <button type="button" class="btn btn-success">Pin</button>
+                                    <button type="button" class="btn btn-danger">Remove</button>
+                                </div>
+                                <div class="col-md-6 when-dual hidden">
+                                    <button type="button" class="btn btn-success"><i class="fa fa-thumb-tack"></i></button>
+                                    <button type="button" class="btn btn-danger"><i class="fa fa-trash"></i></button>
+                                </div>
+                            </div>
+                        </div>
                     </a>
-                    <a class="list-group-item advert selected" href="#">
-                        <img src="img/avto1.JPG" class="img-rounded pull-left">
-                        <h4 class="list-group-item-heading">Mercedes-Benz C 220 CDI S.W. Avantg.</h4>
+                    <a class="list-group-item advert selected pinned" href="#">
+                        <div class="row">
+                            <div class="general col-sm-10">
+                                <img src="img/avto1.JPG" class="img-rounded pull-left">
+                                <h4 class="list-group-item-heading">Mercedes-Benz C 220 CDI S.W. Avantg.</h4>
 
-                        <p class="list-group-item-text">IT-10036 Settimo torinese - Torino - TO, Händler</p>
+                                <p class="list-group-item-text">IT-10036 Settimo torinese - Torino - TO, Händler</p>
 
-                        <p class="list-group-item-text">EZ 06/2008, 121.500 km, 125 kW (170 PS)</p>
+                                <p class="list-group-item-text">EZ 06/2008, 121.500 km, 125 kW (170 PS)</p>
 
-                        <p class="list-group-item-text">Kombi, Diesel, Automatik, 4/5 Türen</p>
+                                <p class="list-group-item-text">Kombi, Diesel, Automatik, 4/5 Türen</p>
 
-                        <p class="list-group-item-text price">12.900 €</p>
-                    </a>
-                    <a class="list-group-item advert" href="#">
-                        <img src="img/avto2.JPG" class="img-rounded pull-left">
-                        <h4 class="list-group-item-heading">Volkswagen Golf 1.4 TSI DSG Highline Bi-Xenon Navi
-                            Vollauss</h4>
+                                <p class="list-group-item-text price">12.900 €</p>
+                            </div>
+                            <div class="col-sm-1 actions">
+                                <div class="col-md-6 when-single">
+                                    <button type="button" class="btn btn-success">Pin</button>
+                                    <button type="button" class="btn btn-danger">Remove</button>
+                                </div>
+                                <div class="col-md-6 when-dual hidden">
+                                    <button type="button" class="btn btn-success"><i class="fa fa-thumb-tack"></i></button>
+                                    <button type="button" class="btn btn-danger"><i class="fa fa-trash"></i></button>
+                                </div>
+                            </div>
+                        </div>
 
-                        <p class="list-group-item-text">DE-98574 Schmalkalden, Händler</p>
 
-                        <p class="list-group-item-text">EZ 06/2012, 85.450 km, 118 kW (160 PS)</p>
-
-                        <p class="list-group-item-text">Benzin, Automatik, HU 06/2017, 2/3 Türen</p>
-
-                        <p class="list-group-item-text price">13.950 €</p>
-                    </a>
-                    <a class="list-group-item advert" href="#">
-                        <img src="img/moto3.jpg" class="img-rounded pull-left">
-                        <h4 class="list-group-item-heading">Suzuki SV1000S</h4>
-
-                        <p class="list-group-item-text">Letnik 1. registracije 2005</p>
-
-                        <p class="list-group-item-text">260000 km</p>
-
-                        <p class="list-group-item-text price">3.300 €</p>
-                    </a>
-                    <a class="list-group-item advert" href="#">
-                        <img src="img/avto3.JPG" class="img-rounded pull-left">
-                        <h4 class="list-group-item-heading">Mercedes-Benz C 220 CDI S.W. Avantg.</h4>
-
-                        <p class="list-group-item-text">IT-10036 Settimo torinese - Torino - TO, Händler</p>
-
-                        <p class="list-group-item-text">EZ 06/2008, 121.500 km, 125 kW (170 PS)</p>
-
-                        <p class="list-group-item-text">Kombi, Diesel, Automatik, 4/5 Türen</p>
-
-                        <p class="list-group-item-text price">12.900 €</p>
                     </a>
                     <a class="list-group-item advert" href="#">
-                        <img src="img/moto4.JPG" class="img-rounded pull-left">
-                        <h4 class="list-group-item-heading">Volkswagen Golf 1.4 TSI DSG Highline Bi-Xenon Navi
-                            Vollauss</h4>
+                        <div class="row">
+                            <div class="general col-sm-10">
+                                <img src="img/avto2.JPG" class="img-rounded pull-left">
+                                <h4 class="list-group-item-heading">Volkswagen Golf 1.4 TSI DSG Highline Bi-Xenon Navi
+                                    Vollauss</h4>
 
-                        <p class="list-group-item-text">DE-98574 Schmalkalden, Händler</p>
+                                <p class="list-group-item-text">DE-98574 Schmalkalden, Händler</p>
 
-                        <p class="list-group-item-text">EZ 06/2012, 85.450 km, 118 kW (160 PS)</p>
+                                <p class="list-group-item-text">EZ 06/2012, 85.450 km, 118 kW (160 PS)</p>
 
-                        <p class="list-group-item-text">Benzin, Automatik, HU 06/2017, 2/3 Türen</p>
+                                <p class="list-group-item-text">Benzin, Automatik, HU 06/2017, 2/3 Türen</p>
 
-                        <p class="list-group-item-text price">13.950 €</p>
+                                <p class="list-group-item-text price">13.950 €</p>
+                            </div>
+                            <div class="col-sm-1 actions">
+                                <div class="col-md-6 when-single">
+                                    <button type="button" class="btn btn-success">Pin</button>
+                                    <button type="button" class="btn btn-danger">Remove</button>
+                                </div>
+                                <div class="col-md-6 when-dual hidden">
+                                    <button type="button" class="btn btn-success"><i class="fa fa-thumb-tack"></i></button>
+                                    <button type="button" class="btn btn-danger"><i class="fa fa-trash"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="list-group-item advert" href="#">
+                        <div class="row">
+                            <div class="general col-sm-10">
+                                <img src="img/moto3.jpg" class="img-rounded pull-left">
+                                <h4 class="list-group-item-heading">Suzuki SV1000S</h4>
+
+                                <p class="list-group-item-text">Letnik 1. registracije 2005</p>
+
+                                <p class="list-group-item-text">260000 km</p>
+
+                                <p class="list-group-item-text price">3.300 €</p>
+                            </div>
+                            <div class="col-sm-1 actions">
+                                <div class="col-md-6 when-single">
+                                    <button type="button" class="btn btn-success">Pin</button>
+                                    <button type="button" class="btn btn-danger">Remove</button>
+                                </div>
+                                <div class="col-md-6 when-dual hidden">
+                                    <button type="button" class="btn btn-success"><i class="fa fa-thumb-tack"></i></button>
+                                    <button type="button" class="btn btn-danger"><i class="fa fa-trash"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="list-group-item advert" href="#">
+                        <div class="row">
+                            <div class="general col-sm-10">
+                                <img src="img/avto3.JPG" class="img-rounded pull-left">
+                                <h4 class="list-group-item-heading">Mercedes-Benz C 220 CDI S.W. Avantg.</h4>
+
+                                <p class="list-group-item-text">IT-10036 Settimo torinese - Torino - TO, Händler</p>
+
+                                <p class="list-group-item-text">EZ 06/2008, 121.500 km, 125 kW (170 PS)</p>
+
+                                <p class="list-group-item-text">Kombi, Diesel, Automatik, 4/5 Türen</p>
+
+                                <p class="list-group-item-text price">12.900 €</p>
+                            </div>
+                            <div class="col-sm-1 actions">
+                                <div class="col-md-6 when-single">
+                                    <button type="button" class="btn btn-success">Pin</button>
+                                    <button type="button" class="btn btn-danger">Remove</button>
+                                </div>
+                                <div class="col-md-6 when-dual hidden">
+                                    <button type="button" class="btn btn-success"><i class="fa fa-thumb-tack"></i></button>
+                                    <button type="button" class="btn btn-danger"><i class="fa fa-trash"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="list-group-item advert" href="#">
+                        <div class="row">
+                            <div class="general col-sm-10">
+                                <img src="img/moto4.JPG" class="img-rounded pull-left">
+                                <h4 class="list-group-item-heading">Volkswagen Golf 1.4 TSI DSG Highline Bi-Xenon Navi
+                                    Vollauss</h4>
+
+                                <p class="list-group-item-text">DE-98574 Schmalkalden, Händler</p>
+
+                                <p class="list-group-item-text">EZ 06/2012, 85.450 km, 118 kW (160 PS)</p>
+
+                                <p class="list-group-item-text">Benzin, Automatik, HU 06/2017, 2/3 Türen</p>
+
+                                <p class="list-group-item-text price">13.950 €</p>
+                            </div>
+                            <div class="col-sm-1 actions">
+                                <div class="col-md-6 when-single">
+                                    <button type="button" class="btn btn-success"> Pin</button>
+                                    <button type="button" class="btn btn-danger"> Remove</button>
+                                </div>
+                                <div class="col-md-6 when-dual hidden">
+                                    <button type="button" class="btn btn-success"><i class="fa fa-thumb-tack"></i></button>
+                                    <button type="button" class="btn btn-danger"><i class="fa fa-trash"></i></button>
+                                </div>
+                            </div>
+                        </div>
                     </a>
 
 
@@ -261,14 +355,12 @@
 
         </div>
 
-        <!--list-->
-
         <!--list details column-->
-        <div class="col-sm-7 bootcards-cards hidden-xs">
+        <div class="col-sm-7 bootcards-cards hidden-xs" id="sortable">
             <div class="search-form" style="border-bottom: 0; text-align: center; color: #595B60">
                 <div class="row">
                     <div class="col-xs-12">
-                        <div class="form-group"><span style="color: #00b2ef; font-size: large">Mercedes-Benz C 220 CDI S.W. Avantg.</span>
+                        <div class="form-group"><span class="ad-title">Mercedes-Benz C 220 CDI S.W. Avantg.</span>
                         </div>
                     </div>
 
@@ -278,26 +370,74 @@
 
             <div class="panel panel-default bootcards-richtext">
                 <div class="panel-heading">
-                    <h3 class="panel-title">DETAILS</h3>
+                    <h3 class="panel-title"><i class="fa fa-info-circle"></i><i class="fa fa-arrows drag-icon"></i>
+                        DETAILS</h3>
                 </div>
-                <div class="panel-body"  style="max-width: none">
-                    <ul>
-                        <li>Hubraum: 1390 cm³</li>
-                        <li>Anzahl Sitzplätze: 5</li>
-                        <li>Anzahl der Türen: 2/3</li>
-                        <li>Türen Kraftstoffverbr. komb.: ca. 5,9 l/100 km</li>
-                        <li>Kraftstoffverbr. innerorts: ca. 7,5 l/100 km</li>
-                        <li>Kraftstoffverbr. außerorts: ca. 5,1 l/100 km</li>
-                        <li>CO2-Emissionen komb.: ca. 139 g/km</li>
-                        <li>Schadstoffklasse: Euro5</li>
-                        <li>Umweltplakette:4 (Grün)</li>
-                        <li>Anzahl der Fahrzeughalter: 1</li>
-                        <li>HU/AU:Neu</li>
-                        <li> Herstellerfarbbezeichnung:Deep Black Perleffekt metallic</li>
-                        <li>Farbe:Schwarz metallic</li>
-                        <li>Innenausstattung: Teilleder</li>
-                        <li>Farbe der Innenausstattung: Schwarz</li>
-                    </ul>
+                <div class="panel-body details" style="max-width: none">
+                    <div class="row">
+                        <div class="col-sm-9">
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <tr>
+                                        <td>
+                                            <i class="fa fa-tachometer"></i>
+                                            <label class="no-margin"> 27.518 km</label>
+                                            <label class="floating"> Mileage</label>
+                                        </td>
+                                        <td>
+                                            <i class="fa fa-cogs"></i> <label class="no-margin"> 650 ccm, 53 kW (72 KM),
+                                            2 valjni, 4 taktni</label><label class="floating">Engine</label>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <i class="fa fa-calendar"></i> <label class="no-margin">2003</label><label
+                                                class="floating">Year</label>
+                                        </td>
+                                        <td>
+                                            <i class="fa fa-tint"></i> <label class="no-margin">Diesel</label><label
+                                                class="floating">Fuel</label>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <i class="fa fa-users"></i> <label class="no-margin"> third</label><label
+                                                class="floating">Current owner</label>
+                                        </td>
+                                        <td>
+                                            <i class="fa fa-clock-o"></i> <label class="no-margin"> 25.2.2016
+                                            11:46:00</label><label class="floating">Posted on</label>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 region">
+                            <img src="../dist/imgs/slo_regions.png"/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="msg-controls">
+                                <div class="wrap">
+                                </div>
+                            </div>
+                            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois
+                                divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis,
+                                nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta
+                                quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim.
+                                Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+
+                            <div class="msg-controls">
+                                <div class="wrap">
+                                    <a href="#"><span class="mail">gasper.andrejc@gmail.com</span><i
+                                            class="fa fa-envelope"></i></a>
+                                    <a href="#"><i class="fa fa-mobile phone-icon"></i></i><span>00386 41 551 431</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
 
                 </div>
             </div>
@@ -305,7 +445,8 @@
 
             <div class="panel panel-default bootcards-richtext">
                 <div class="panel-heading">
-                    <h3 class="panel-title">Pictures</h3>
+                    <h3 class="panel-title"><i class="fa fa-camera"></i> Pictures
+                        <i class="fa fa-arrows drag-icon"></i></h3>
                 </div>
                 <div class="panel-body" style="margin: 0; max-width: none">
                     <div class="details-img">
@@ -360,7 +501,7 @@
 
                 <div class="panel panel-default">
                     <div class="panel-heading clearfix">
-                        <h3 class="panel-title pull-left">Contact Details</h3>
+                        <h3 class="panel-title pull-left"><i class="fa fa-arrows drag-icon"></i>Contact Details</h3>
 
                         <div class="btn-group pull-right visible-xs">
                             <a class="btn btn-primary" href="#" data-toggle="modal" data-target="#editModal">
@@ -419,50 +560,94 @@
             <!--rich text card sample-->
             <div class="panel panel-default bootcards-richtext">
                 <div class="panel-heading">
-                    <h3 class="panel-title">Rich Text Card Heading</h3>
+                    <h3 class="panel-title"><i class="fa fa-comments"></i><i class="fa fa-arrows drag-icon"></i> Users
+                        collaboration</h3>
                 </div>
-                <div class="panel-body">
-                    <p class="lead">Lead body copy vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
-                        auctor. Duis mollis, est non commodo luctus.</p>
-
-                    <h1>Heading 1</h1>
-
-                    <h2>Heading 2</h2>
-
-                    <h3>Heading 3</h3>
-                    <h4>Heading 4</h4>
-                    <h5>Heading 5</h5>
-                    <h6>Heading 6</h6>
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lobortis pretium nisl. Etiam at
-                        vestibulum purus, sit amet blandit mi. Duis enim lectus, tempus nec varius sed, sollicitudin
-                        quis velit. Fusce quis sem porttitor, euismod ante vitae, ultricies erat.</p>
-                    <ul>
-                        <li>Duis cursus dui et turpis gravida sollicitudin.</li>
-                        <li>Donec eget mauris feugiat, euismod purus nec, feugiat neque.</li>
-                        <li>Nunc erat est, molestie eget magna in, consectetur euismod lorem.</li>
-                    </ul>
-                    <ol>
-                        <li>Sed luctus congue orci quis tempus.</li>
-                        <li>Praesent in viverra lorem.</li>
-                        <li>Suspendisse augue lacus, porta quis imperdiet at, posuere vel nulla.</li>
-                    </ol>
-                    <div>
-                        <!-- Standard button -->
-                        <button type="button" class="btn btn-default">Default</button>
-                        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                        <button type="button" class="btn btn-primary">Primary</button>
-                        <!-- Indicates a successful or positive action -->
-                        <button type="button" class="btn btn-success">Success</button>
-                        <!-- Contextual button for informational alert messages -->
-                        <button type="button" class="btn btn-info">Info</button>
-                        <!-- Indicates caution should be taken with this action -->
-                        <button type="button" class="btn btn-warning">Warning</button>
-                        <!-- Indicates a dangerous or potentially negative action -->
-                        <button type="button" class="btn btn-danger">Danger</button>
-                        <!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
-                        <button type="button" class="btn btn-link">Link</button>
-                        <button type="button" class="btn btn-primary" disabled="disabled">Disabled</button>
+                <div class="panel-body" style="max-width: none">
+                    <div class="container">
+                        <ul class="timeline">
+                            <li class="timeline-inverted">
+                                <!--<div class="timeline-badge success"><i class="glyphicon glyphicon-thumbs-up"></i></div>-->
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                                    </div>
+                                    <div class="msg-controls">
+                                        <div class="wrap">
+                                            <a href="#"><i class="fa fa-thumbs-down"></i></i></a>
+                                            <a href="#"><i class="fa fa-thumbs-up"></i></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis.
+                                            Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis
+                                            santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé
+                                            pra quem é amistosis quis leo.
+                                            Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num
+                                            significa nadis i pareci latim. Interessantiss quisso pudia ce receita
+                                            de bolis, mais bolis eu num gostis.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline-inverted">
+                                <!--<div class="timeline-badge success"><i class="glyphicon glyphicon-thumbs-up"></i></div>-->
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                                    </div>
+                                    <div class="msg-controls">
+                                        <div class="wrap">
+                                            <a href="#"><i class="fa fa-thumbs-down"></i></i></a>
+                                            <a href="#"><i class="fa fa-thumbs-up"></i></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis.
+                                            Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis
+                                            santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé
+                                            pra quem é amistosis quis leo.
+                                            Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num
+                                            significa nadis i pareci latim. Interessantiss quisso pudia ce receita
+                                            de bolis, mais bolis eu num gostis.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline-inverted">
+                                <!--<div class="timeline-badge success"><i class="glyphicon glyphicon-thumbs-up"></i></div>-->
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                                    </div>
+                                    <div class="msg-controls">
+                                        <div class="wrap">
+                                            <a href="#"><i class="fa fa-thumbs-down"></i></i></a>
+                                            <a href="#"><i class="fa fa-thumbs-up"></i></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis.
+                                            Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis
+                                            santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé
+                                            pra quem é amistosis quis leo.
+                                            Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num
+                                            significa nadis i pareci latim. Interessantiss quisso pudia ce receita
+                                            de bolis, mais bolis eu num gostis.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline-inverted">
+                                <!--<div class="timeline-badge success"><i class="glyphicon glyphicon-thumbs-up"></i></div>-->
+                                <div class="timeline-panel">
+                                    <div class="form-group">
+                                        <div class="timeline-body">
+                                            <label for="comment">Comment:</label>
+                                                <textarea class="form-control add-comment" rows="5"
+                                                          id="comment"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 <div class="panel-footer">
@@ -475,7 +660,413 @@
         <!--list-details-->
 
     </div>
-    <!--row-->
+</div>
+<!-- left list column -->
+<div class="col-sm-5 bootcards-list single-mode" id="list" data-title="Contacts">
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <div class="search-form" style="border-bottom: 0; text-align: center; color: #595B60">
+                <div class="row">
+                    <div class="col-xs-11">
+                        <div class="form-group"><span>www.autoscout24.de</span>
+                            <!--<button type="button" class="btn btn-warning navbar-right hidden-sm manual-refresh">-->
+                            <!--<i class="fa fa-lg fa-refresh"></i><span>Refresh</span>-->
+                            <!--</button>-->
+
+
+                        </div>
+                    </div>
+                    <div class="col-xs-1">
+                        <a class="btn btn-primary btn-block" href="#" id="slideMode-on">
+                            <i class="fa fa-angle-double-right"></i>
+                        </a>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="search-form">
+                <div class="row">
+                    <div class="col-xs-10">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search by keyword...">
+                            <i class="fa fa-search"></i>
+                        </div>
+                    </div>
+                    <div class="col-xs-2">
+                        <a class="btn btn-primary btn-block filters" href="#"
+                           onclick="bootcards.hideOffCanvasMenu()">
+                            <div class="filter-children">
+                                <i class="fa fa-filter"></i>
+                                <span>Filter options</span>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--panel body-->
+
+        <div class="list-group">
+
+            <!-- list of sample data -->
+
+            <a class="list-group-item advert" href="#">
+                <img src="img/moto1.jpg" class="img-rounded pull-left">
+                <h4 class="list-group-item-heading">Suzuki SV1000S</h4>
+
+                <p class="list-group-item-text">Letnik 1. registracije 2005</p>
+
+                <p class="list-group-item-text">260000 km</p>
+
+                <p class="list-group-item-text price">3.300 €</p>
+            </a>
+            <a class="list-group-item advert selected" href="#">
+                <img src="img/avto1.JPG" class="img-rounded pull-left">
+                <h4 class="list-group-item-heading">Mercedes-Benz C 220 CDI S.W. Avantg.</h4>
+
+                <p class="list-group-item-text">IT-10036 Settimo torinese - Torino - TO, Händler</p>
+
+                <p class="list-group-item-text">EZ 06/2008, 121.500 km, 125 kW (170 PS)</p>
+
+                <p class="list-group-item-text">Kombi, Diesel, Automatik, 4/5 Türen</p>
+
+                <p class="list-group-item-text price">12.900 €</p>
+            </a>
+            <a class="list-group-item advert" href="#">
+                <img src="img/avto2.JPG" class="img-rounded pull-left">
+                <h4 class="list-group-item-heading">Volkswagen Golf 1.4 TSI DSG Highline Bi-Xenon Navi
+                    Vollauss</h4>
+
+                <p class="list-group-item-text">DE-98574 Schmalkalden, Händler</p>
+
+                <p class="list-group-item-text">EZ 06/2012, 85.450 km, 118 kW (160 PS)</p>
+
+                <p class="list-group-item-text">Benzin, Automatik, HU 06/2017, 2/3 Türen</p>
+
+                <p class="list-group-item-text price">13.950 €</p>
+            </a>
+            <a class="list-group-item advert" href="#">
+                <img src="img/moto3.jpg" class="img-rounded pull-left">
+                <h4 class="list-group-item-heading">Suzuki SV1000S</h4>
+
+                <p class="list-group-item-text">Letnik 1. registracije 2005</p>
+
+                <p class="list-group-item-text">260000 km</p>
+
+                <p class="list-group-item-text price">3.300 €</p>
+            </a>
+            <a class="list-group-item advert" href="#">
+                <img src="img/avto3.JPG" class="img-rounded pull-left">
+                <h4 class="list-group-item-heading">Mercedes-Benz C 220 CDI S.W. Avantg.</h4>
+
+                <p class="list-group-item-text">IT-10036 Settimo torinese - Torino - TO, Händler</p>
+
+                <p class="list-group-item-text">EZ 06/2008, 121.500 km, 125 kW (170 PS)</p>
+
+                <p class="list-group-item-text">Kombi, Diesel, Automatik, 4/5 Türen</p>
+
+                <p class="list-group-item-text price">12.900 €</p>
+            </a>
+            <a class="list-group-item advert" href="#">
+                <img src="img/moto4.JPG" class="img-rounded pull-left">
+                <h4 class="list-group-item-heading">Volkswagen Golf 1.4 TSI DSG Highline Bi-Xenon Navi
+                    Vollauss</h4>
+
+                <p class="list-group-item-text">DE-98574 Schmalkalden, Händler</p>
+
+                <p class="list-group-item-text">EZ 06/2012, 85.450 km, 118 kW (160 PS)</p>
+
+                <p class="list-group-item-text">Benzin, Automatik, HU 06/2017, 2/3 Türen</p>
+
+                <p class="list-group-item-text price">13.950 €</p>
+            </a>
+
+
+        </div>
+        <!--list-group-->
+
+        <div class="panel-footer">
+            <small class="pull-left">Built with Bootcards - List</small>
+            <a class="btn btn-link btn-xs pull-right"
+               href="http://www.avto.net/_moto/results.asp?znamka=suzuki&model=katerikoli&modelid=&tip=&znamka2=&model2=katerikoli&tip2=&znamka3=&model3=katerikoli&tip3=&cenamin=0&cenamax=999999&brezcene=1&letnikmin=0&letnikmax=2090&bencin=0&zavore=&pogon=&klima=&servo=&lastnik=&servis=&automatic=0&starost2=999&star1=1&star2=1&star3=&star4=1&star5=&karambolirano=0&oblika=6001&ccmmin=0&ccmmax=99999&mocmin=&mocmax=&kmmin=0&kmmax=999999&kwmin=0&kwmax=999&motortakt=0&motorvalji=0&lokacija=0&izpis=&sirina=&dolzina=&dolzinamin=&dolzinamax=&nosilnostmin=&nosilnostmax=&lezisc=&presek=&premer=&col=&vijakov=&vozilo=&plin=&prodajalec=2&estekla=&leder=&navi=&alufelge=&sibedah=&gretje=&tempomat=&centralno=&vlecna=&aklima=&sloavto=&xenonke=&espsistem=&garage=&airbag=&najem=&hibrid=&garancija=&oldtimer=&barva=&showguarantee=&weltauto=&levjapriloznost=&g2=&toygar=&citroenselect=&sedezev=&petzvezdic=&paketgarancije=&topp=&eko=&door=&men=&vin=&broker=&prikazkategorije=&kategorija=&oglasrubrika=6&zaloga=10&presort=2&tipsort=desc">
+                http://www.avto.net/_moto/results.asp?znamka=suzu...</a>
+        </div>
+    </div>
+    <!--panel-->
+
+</div>
+
+<!--list-->
+
+<!--list details column-->
+<div class="col-sm-7 bootcards-cards hidden-xs">
+    <div class="search-form" style="border-bottom: 0; text-align: center; color: #595B60">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="form-group"><span class="ad-title">Mercedes-Benz C 220 CDI S.W. Avantg.</span>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="panel panel-default bootcards-richtext">
+        <div class="panel-heading">
+            <h3 class="panel-title"><i class="fa fa-info"></i> DETAILS</h3>
+        </div>
+        <div class="panel-body" style="max-width: none">
+            <ul>
+                <li>Hubraum: 1390 cm³</li>
+                <li>Anzahl Sitzplätze: 5</li>
+                <li>Anzahl der Türen: 2/3</li>
+                <li>Türen Kraftstoffverbr. komb.: ca. 5,9 l/100 km</li>
+                <li>Kraftstoffverbr. innerorts: ca. 7,5 l/100 km</li>
+                <li>Kraftstoffverbr. außerorts: ca. 5,1 l/100 km</li>
+                <li>CO2-Emissionen komb.: ca. 139 g/km</li>
+                <li>Schadstoffklasse: Euro5</li>
+                <li>Umweltplakette:4 (Grün)</li>
+                <li>Anzahl der Fahrzeughalter: 1</li>
+                <li>HU/AU:Neu</li>
+                <li> Herstellerfarbbezeichnung:Deep Black Perleffekt metallic</li>
+                <li>Farbe:Schwarz metallic</li>
+                <li>Innenausstattung: Teilleder</li>
+                <li>Farbe der Innenausstattung: Schwarz</li>
+            </ul>
+
+        </div>
+    </div>
+    <!--end rich text card-->
+
+    <div class="panel panel-default bootcards-richtext">
+        <div class="panel-heading">
+            <h3 class="panel-title">Pictures</h3>
+        </div>
+        <div class="panel-body" style="margin: 0; max-width: none">
+            <div class="details-img">
+                <!--<img src="img/avto1.JPG" class="img-rounded pull-left">-->
+                <div style="float: left">
+                    <div id="thumbnail-slider" style="float:left;">
+                        <div class="inner">
+                            <ul>
+                                <li>
+                                    <a class="thumb" href="img/avto1.JPG"></a>
+                                </li>
+                                <li>
+                                    <a class="thumb" href="img/avto1.JPG"></a>
+                                </li>
+                                <li>
+                                    <a class="thumb" href="img/avto1.JPG"></a>
+                                </li>
+                                <li>
+                                    <a class="thumb" href="img/avto1.JPG"></a>
+                                </li>
+                                <li>
+                                    <a class="thumb" href="img/avto1.JPG"></a>
+                                </li>
+                                <li>
+                                    <a class="thumb" href="img/avto1.JPG"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="ninja-slider" style="float:right; width: 700px;">
+                        <div class="slider-inner">
+                            <ul>
+                                <li><a class="ns-img" href="img/avto1.JPG"></a></li>
+                                <li><a class="ns-img" href="img/avto1.JPG"></a></li>
+                                <li><a class="ns-img" href="img/avto1.JPG"></a></li>
+                                <li><a class="ns-img" href="img/avto1.JPG"></a></li>
+                                <li><a class="ns-img" href="img/avto1.JPG"></a></li>
+                                <li><a class="ns-img" href="img/avto1.JPG"></a></li>
+                            </ul>
+                            <div class="fs-icon" title="Expand/Close"></div>
+                        </div>
+                    </div>
+                    <div style="clear:both;"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--contact details -->
+    <div id="contactCard">
+
+        <div class="panel panel-default">
+            <div class="panel-heading clearfix">
+                <h3 class="panel-title pull-left">Contact Details</h3>
+
+                <div class="btn-group pull-right visible-xs">
+                    <a class="btn btn-primary" href="#" data-toggle="modal" data-target="#editModal">
+                        <i class="fa fa-pencil"></i><span>Edit</span>
+                    </a>
+                </div>
+                <a class="btn btn-primary pull-right hidden-xs" href="#" data-toggle="modal"
+                   data-target="#editModal">
+                    <i class="fa fa-pencil"></i><span>Edit</span>
+                </a>
+            </div>
+            <div class="list-group">
+                <div class="list-group-item">
+                    <img src="img/Sofia Acey.jpg" class="img-rounded pull-left">
+                    <label>Name</label>
+                    <h4 class="list-group-item-heading">Acey, Sofia</h4>
+                </div>
+
+                <div class="list-group-item">
+                    <label>Company</label>
+                    <h4 class="list-group-item-heading">Masung Corp.</h4>
+                </div>
+
+                <div class="list-group-item">
+                    <label>Job Title</label>
+                    <h4 class="list-group-item-heading">Finance Director (ZCT)</h4>
+                </div>
+
+                <div class="list-group-item">
+                    <label>Department</label>
+                    <h4 class="list-group-item-heading">Finance</h4>
+                </div>
+
+                <a class="list-group-item" href="tel://+1 650-555-0055">
+                    <label>Phone</label>
+                    <h4 class="list-group-item-heading">+1 650-555-0055</h4>
+                </a>
+
+                <a class="list-group-item" href="mailto:Sofia.Acey@masung.com">
+                    <label>Email</label>
+                    <h4 class="list-group-item-heading">Sofia.Acey@masung.com</h4>
+                </a>
+
+            </div>
+
+            <div class="panel-footer">
+                <small class="pull-left">Built with Bootcards - Base Card</small>
+                <a class="btn btn-link btn-xs pull-right" href="#">
+                    Card footer link</a>
+            </div>
+        </div>
+
+    </div>
+    <!--contact card-->
+
+    <!--rich text card sample-->
+    <div class="panel panel-default bootcards-richtext">
+        <div class="panel-heading">
+            <h3 class="panel-title">Rich Text Card Heading</h3>
+        </div>
+        <div class="panel-body" style="max-width: none">
+            <div class="container">
+                <ul class="timeline">
+                    <li class="timeline-inverted">
+                        <!--<div class="timeline-badge success"><i class="glyphicon glyphicon-thumbs-up"></i></div>-->
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                            </div>
+                            <div class="msg-controls">
+                                <div class="wrap">
+                                    <a href="#"><i class="fa fa-thumbs-down"></i></i></a>
+                                    <a href="#"><i class="fa fa-thumbs-up"></i></i></a>
+                                </div>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis.
+                                    Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis
+                                    santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé
+                                    pra quem é amistosis quis leo.
+                                    Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num
+                                    significa nadis i pareci latim. Interessantiss quisso pudia ce receita
+                                    de bolis, mais bolis eu num gostis.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <!--<div class="timeline-badge success"><i class="glyphicon glyphicon-thumbs-up"></i></div>-->
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                            </div>
+                            <div class="msg-controls">
+                                <div class="wrap">
+                                    <a href="#"><i class="fa fa-thumbs-down"></i></i></a>
+                                    <a href="#"><i class="fa fa-thumbs-up"></i></i></a>
+                                </div>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis.
+                                    Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis
+                                    santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé
+                                    pra quem é amistosis quis leo.
+                                    Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num
+                                    significa nadis i pareci latim. Interessantiss quisso pudia ce receita
+                                    de bolis, mais bolis eu num gostis.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <!--<div class="timeline-badge success"><i class="glyphicon glyphicon-thumbs-up"></i></div>-->
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                            </div>
+                            <div class="msg-controls">
+                                <div class="wrap">
+                                    <a href="#"><i class="fa fa-thumbs-down"></i></i></a>
+                                    <a href="#"><i class="fa fa-thumbs-up"></i></i></a>
+                                </div>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis.
+                                    Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis
+                                    santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé
+                                    pra quem é amistosis quis leo.
+                                    Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num
+                                    significa nadis i pareci latim. Interessantiss quisso pudia ce receita
+                                    de bolis, mais bolis eu num gostis.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <!--<div class="timeline-badge success"><i class="glyphicon glyphicon-thumbs-up"></i></div>-->
+                        <div class="timeline-panel">
+                            <div class="form-group">
+                                <div class="timeline-body">
+                                    <label for="comment">Comment:</label>
+                                                <textarea class="form-control add-comment" rows="5"
+                                                          id="comment"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="panel-footer">
+            <small>Built with Bootcards - Rich Text Card</small>
+        </div>
+    </div>
+    <!--end rich text card-->
+
+</div>
+<!--list-details-->
+
+</div>
+
+<!--row-->
+
+<!-- Left and right controls -->
+<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+</a>
 
 
 </div>
@@ -491,14 +1082,17 @@
         </div>
 
         <div class="btn-group">
-            <a href="#" class="btn btn-default">
-                <i class="fa fa-2x fa-dashboard"></i>Dashboard
+            <a href="#" class="btn btn-default control">
+                <div class="autoscout"></div>
+                Autoscout
             </a>
-            <a href="starter-template.html" class="btn btn-default active">
-                <i class="fa fa-2x fa-users"></i>Contacts
+            <a href="#" class="btn btn-default control selected">
+                <div class="mobilede"></div>
+                Mobilede
             </a>
-            <a href="az-picker.html" class="btn btn-default">
-                <i class="fa fa-2x fa-font"></i>AZ Picker
+            <a href="#" class="btn btn-default control">
+                <div class="avtonet"></div>
+                Avtonet
             </a>
         </div>
     </div>
@@ -603,13 +1197,14 @@
 <script src="../../../js/jquery-ui.min.js"></script>
 
 <!-- Bootcards JS -->
-<script src="../src/js/bootcards.js"></script>
+<script src="../dist/js/bootcards.js"></script>
 
 <!--recommended: FTLabs FastClick library-->
 <script src="//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.3/fastclick.min.js"></script>
 <script src="slider/ninja-slider.js"></script>
 <script src="slider/thumbnail-slider.js"></script>
 <script src="js/main.js"></script>
+
 
 <script type="text/javascript">
 
