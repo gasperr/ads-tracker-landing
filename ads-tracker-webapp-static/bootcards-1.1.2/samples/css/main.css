@@ -79,6 +79,8 @@ a.list-group-item.advert:not(.selected):hover {
     color: white;
 }
 
+
+
 .panel-title{
     color: #008ebc;
 }
@@ -125,26 +127,6 @@ a.filters > .filter-children{
     position: relative;
 }
 
-.timeline > li:before,
-.timeline > li:after {
-    content: " ";
-    display: table;
-}
-
-.timeline > li:after {
-    clear: both;
-}
-
-.timeline > li:before,
-.timeline > li:after {
-    content: " ";
-    display: table;
-}
-
-.timeline > li:after {
-    clear: both;
-}
-
 .timeline > li > .timeline-panel {
     width: 100%;
     float: left;
@@ -154,30 +136,16 @@ a.filters > .filter-children{
     position: relative;
     -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    margin-bottom: 10px;
 }
-
-.timeline > li > .timeline-panel:before {
-    position: absolute;
-    top: 26px;
-    right: -15px;
-    display: inline-block;
-    border-top: 15px solid transparent;
-    border-left: 15px solid #ccc;
-    border-right: 0 solid #ccc;
-    border-bottom: 15px solid transparent;
-    content: " ";
+.timeline > li > .timeline-panel.forums {
+    padding: 5px 20px 10px 20px;
 }
-
-.timeline > li > .timeline-panel:after {
-    position: absolute;
-    top: 27px;
-    right: -14px;
-    display: inline-block;
-    border-top: 14px solid transparent;
-    border-left: 14px solid #fff;
-    border-right: 0 solid #fff;
-    border-bottom: 14px solid transparent;
-    content: " ";
+.timeline > li > .timeline-panel.forums .date {
+    color: #ddd;
+}
+.timeline > li > .timeline-panel.forums .timeline-heading {
+    height: 25px;
 }
 
 .timeline > li > .timeline-badge {
@@ -203,19 +171,6 @@ a.filters > .filter-children{
     /*float: right;*/
 /*}*/
 
-.timeline > li.timeline-inverted > .timeline-panel:before {
-    border-left-width: 0;
-    border-right-width: 15px;
-    left: -15px;
-    right: auto;
-}
-
-.timeline > li.timeline-inverted > .timeline-panel:after {
-    border-left-width: 0;
-    border-right-width: 14px;
-    left: -14px;
-    right: auto;
-}
 
 .timeline-badge.primary {
     background-color: #2e6da4 !important;
@@ -392,6 +347,9 @@ a:hover, .btn:hover{
 .no-margin, .nomargin{
     margin: 0 !important;
 }
+.no-padding, .nopadding{
+    padding: 0 !important;
+}
 
 .msg-controls .mail, .msg-controls .phone-icon{
     margin-right: 15px;
@@ -452,8 +410,87 @@ a:hover, .btn:hover{
 }
 .list-group-item.advert .actions .when-dual .btn{
     min-width: 40px;
+    margin-bottom: 2px;
 }
 .list-group-item.advert .actions .when-single .btn{
     min-width: 79px;
+    margin-bottom: 2px;
+}
+
+/*ttabs*/
+
+.tabs-left, .tabs-right {
+    border-bottom: none;
+    /*padding-top: 2px;*/
+}
+.tabs-left {
+    border-right: 1px solid #ddd;
+    width: 94px;
+    background: #008ebc;
+}
+.tabs-left>li, .tabs-right>li {
+    float: none;
+    margin-bottom: 2px;
+}
+.tabs-left>li {
+    margin-right: -1px;
+}
+.tabs-left>li.active>a,
+.tabs-left>li.active>a:hover,
+.tabs-left>li.active>a:focus {
+    border-bottom-color: #ddd;
+    border-right-color: transparent;
+    height: 95px;
+}
+.tabs-left>li>a>div{
+    height: 60px;
+    width: 60px;
+}
+.tabs-left>li .empty-tab{
+    height: 95px;
+    width: 60px;
+}
+.motosvet-logo{
+    background: url("../../dist/imgs/motosvet_logo.png") no-repeat center;
+}
+.bmw-logo{
+    background: url("../../dist/imgs/bmw_logo.png") no-repeat center;
+}
+.alfa-logo{
+    background: url("../../dist/imgs/alfa_logo.png") no-repeat center;
+}
+
+span.logo-undertitle{
+    font-size: 11px;
+    color: white;
+}
+.tabs-left>li.active span.logo-undertitle{
+    color: black;
+}
+
+
+.tabs-left>li>a {
+    border-radius: 4px 0 0 4px;
+    margin-right: 0;
+    display:block;
+    height: 95px;
+    padding: 10px 10px 0 10px;
+}
+
+.panel-heading.forums{
+    border-color: #008ebc;
+}
+.timeline-panel.forums .link{
+    float: right;
+}
+.timeline-panel.forums .forum-content{
+    margin-bottom: 10px;
+}
+/* end of tabs*/
+
+.list-group .forums-list{
+    height: 400px;
+    /*max-height: 400px;*/
+    overflow-y: auto;
 }
 
