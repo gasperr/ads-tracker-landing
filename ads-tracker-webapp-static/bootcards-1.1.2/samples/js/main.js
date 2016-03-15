@@ -6,34 +6,62 @@ ADSTRACKER = {
     init: function () {
         ADSTRACKER.listeners();
         ADSTRACKER.sortable();
+        ADSTRACKER.slider();
 
     },
 
-    modeChanger: function () {
-        $('#list').toggleClass("single-mode dual-mode");
-        $(".actions .when-dual").toggleClass("hidden");
-        $(".actions .when-single").toggleClass("hidden");
+    modeChanger: function (button) {
+
+        $withIdList = button;
+        console.log(button);
+        $withIdList.toggleClass("single-mode dual-mode");
+        $withIdList.find(".actions .when-dual").toggleClass("hidden");
+        $withIdList.find(".actions .when-single").toggleClass("hidden");
+        $(".carousel-control").toggleClass("hidden");
+        $withIdList.find(".slideMode-on").toggleClass("hidden");
+        $withIdList.parents(".slide").find(".col-sm-7.bootcards-cards").toggleClass("hidden");
     },
 
     listeners: function () {
-        $('body').on('click', '#slideMode-on', function (event) {
+        $('body').on('click', '.slideMode-on', function (event) {
             event.preventDefault();
-            ADSTRACKER.modeChanger();
+            $withIdList = $(event.target).parents(".left-main-list");
+            ADSTRACKER.modeChanger($withIdList);
             $(".list-group-item.advert").removeClass("selected");
         });
 
         $('body').on('click', '.list-group-item.advert', function (event) {
             event.preventDefault();
-            if($('#list').hasClass("single-mode")){
-                ADSTRACKER.modeChanger();
+            //console.log(event);
+            $withIdList = $(event.target).parents(".left-main-list");
+            if($withIdList.hasClass("single-mode")){
+                ADSTRACKER.modeChanger($withIdList);
             }
             $(".list-group-item.advert").removeClass("selected");
             $(this).addClass("selected");
         });
     },
 
+    slider: function() {
+        $('.main-slider').bxSlider({
+            minSlides: 2,
+            maxSlides: 3
+        });
+        $(".slide").css("heigth", $(".inherit-height").height());
+        $(".main-slide").css("heigth", $(".inherit-height").height());
+
+    },
+
     sortable: function(){
-        $("#sortable").sortable({
+        $("#sortable1").sortable({
+            start: function(event, ui){
+                $(ui.item).addClass("opacity-half");
+            },
+            stop: function(event, ui){
+                $(ui.item).removeClass("opacity-half");
+            }
+        });
+        $("#sortable2").sortable({
             start: function(event, ui){
                 $(ui.item).addClass("opacity-half");
             },

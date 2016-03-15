@@ -1,3 +1,4 @@
+
 .list-group a.list-group-item {
     height: 150px;
 }
@@ -301,7 +302,7 @@ a:hover, .btn:hover{
 }
 
 .panel.panel-default{
-    box-shadow: 10px 10px 5px #888888;
+    box-shadow: 10px 10px 5px #ddd;
 }
 
 .fa.drag-icon{
@@ -405,6 +406,11 @@ a:hover, .btn:hover{
 .list-group-item.advert.pinned{
     border: 3px solid #008ebc;
 }
+.list-group-item.advert.pinned .btn-success{
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
 .list-group-item.advert.pinned:nth-child(n+2){
     border-top: 0;
 }
@@ -460,6 +466,10 @@ a:hover, .btn:hover{
     background: url("../../dist/imgs/alfa_logo.png") no-repeat center;
 }
 
+.pareri-logo{
+    background: url("../../dist/imgs/pareri_logo.png") no-repeat center;
+}
+
 span.logo-undertitle{
     font-size: 11px;
     color: white;
@@ -489,8 +499,53 @@ span.logo-undertitle{
 /* end of tabs*/
 
 .list-group .forums-list{
-    height: 400px;
+    height: 389px;
     /*max-height: 400px;*/
     overflow-y: auto;
 }
+
+.dual-mode.bootcards-list .search-form .row>div:first-child, .bootcards-list form .row>div:first-child {
+    padding-right: 64px;
+}
+
+.tab-content.forums > .empty{
+    margin-top: 90px;
+    text-align: center;
+}
+.tab-content.forums > .empty .empty-icon{
+    font-size: 160px;
+    color: #008ebc;
+}
+.tab-content.forums > .empty .empty-text{
+    color: #008ebc;
+    font-size: 30px;
+}
+
+.list-group.eurotax{
+    text-align: center;
+    background-color: #ddd;
+}
+
+.btn, .btn-group.open .dropdown-toggle, .btn:active, .btn:focus, .btn:hover, .open>.dropdown-toggle.btn {
+    color: #008ebc;
+}
+
+/*.main-slider{*/
+    /*overflow-y: auto;*/
+    /*overflow-x: hidden;*/
+    /*-webkit-overflow-scrolling: touch;*/
+    /*height: 100%;*/
+/*}*/
+
+.container .bootcards-cards, .container .bootcards-list {
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    height: 100%;
+}
+
+.main-slider, .slide{
+    height: 951px;
+}
+
 
