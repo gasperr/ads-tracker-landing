@@ -2,103 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="848311f5-947c-4f86-8966-7889543085aa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/Joseph Barish.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/Sarah Benson.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/Sofia Acey.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/imgs/alfa_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/imgs/alfa_logo.xcf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/android-icon-144x144.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/android-icon-192x192.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/android-icon-36x36.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/android-icon-48x48.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/android-icon-72x72.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/android-icon-96x96.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/apple-icon-114x114.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/apple-icon-120x120.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/apple-icon-144x144.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/apple-icon-152x152.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/apple-icon-180x180.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/apple-icon-57x57.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/apple-icon-60x60.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/apple-icon-72x72.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/apple-icon-76x76.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/apple-icon-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/apple-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/imgs/auto_scout_logo_25.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/imgs/avtonet_logo_25.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/bc-android-contact-details-framed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/bc-android-contacts-framed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/bc-android-dashboard-framed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/bc-ipad-contacts-framed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/bc-ipad-dashboard.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/imgs/bmw_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/imgs/bmw_logo.xcf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/bootcards-icon-rounded-120x120.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/card-base-android.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/card-base-desktop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/card-base-ios.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/card-chart-android.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/card-chart-desktop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/card-chart-ios.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/card-file-android.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/card-file-desktop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/card-file-ios.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/card-form-ios.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/card-media-android.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/card-media-desktop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/card-media-ios.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/card-summary-android.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/card-summary-desktop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/card-summary-ios.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/favicon-16x16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/favicon-32x32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/favicon-96x96.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/imgs/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/imgs/mobilede_logo_25.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/imgs/motoit_logo_25.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/imgs/motosvet_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/imgs/motosvet_logo.xcf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/ms-icon-144x144.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/ms-icon-150x150.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/ms-icon-310x310.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/ms-icon-70x70.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/img/mustang_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/img/mustang_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/img/mustang_3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/img/mustang_4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/img/mustang_5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/imgs/pareri_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/imgs/pareri_logo.xcf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/img/polo_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/img/polo_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/img/polo_3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/img/polo_4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/img/porsche_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/img/porsche_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/img/porsche_3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/img/porsche_4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/imgs/slo_regions.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/imgs/subito_logo_25.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/imgs/vw_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/css/bootcards-site.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/browserconfig.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/css/docs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/docs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/0.1.0/docs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/1.0.0/docs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/css/jquery.bxslider.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/js/jquery.bxslider.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/js/jquery.bxslider.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/manifest.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/css/main.css" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/js/main.js" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/ninja-slider.css" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/ninja-slider.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/ninja-slider.js" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/ninja-slider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/starter-template.html" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/starter-template.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/thumbnail-slider.css" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/thumbnail-slider.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/thumbnail-slider.js" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/thumbnail-slider.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ads-tracker-landing.iws" />
@@ -149,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="starter-template.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="starter-template.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/starter-template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.847973">
-              <caret line="663" column="0" selection-start-line="663" selection-start-column="0" selection-end-line="663" selection-end-column="0" />
+            <state vertical-scroll-proportion="-13.5">
+              <caret line="249" column="60" selection-start-line="249" selection-start-column="60" selection-end-line="249" selection-end-column="60" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -172,6 +77,16 @@
                 <element signature="n#style#0;n#div#1;n#div#3;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7118644">
+              <caret line="335" column="14" selection-start-line="335" selection-start-column="14" selection-end-line="335" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -250,7 +165,6 @@
       <list>
         <option value="$PROJECT_DIR$/font-awesome/css/font-awesome.css" />
         <option value="$PROJECT_DIR$/font-awesome/css/font-awesome.min.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/creative.css" />
         <option value="$PROJECT_DIR$/ads-tracker-webapp-static/css/demo-app.css" />
         <option value="$PROJECT_DIR$/ads-tracker-webapp-static/css/bootcards.css" />
@@ -269,6 +183,7 @@
         <option value="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/thumbnail-slider.js" />
         <option value="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/css/main.css" />
         <option value="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/starter-template.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -487,7 +402,13 @@
       <option name="project" value="LOCAL" />
       <updated>1458083534896</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="demo done">
+      <created>1458166046403</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1458166046403</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -496,17 +417,17 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24002217" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32987553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20954357" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28423238" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -530,7 +451,8 @@
     <MESSAGE value="lots of stuff" />
     <MESSAGE value="added information from forums" />
     <MESSAGE value="added slider and fucked everything up" />
-    <option name="LAST_COMMIT_MESSAGE" value="added slider and fucked everything up" />
+    <MESSAGE value="demo done" />
+    <option name="LAST_COMMIT_MESSAGE" value="demo done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -830,13 +752,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="114" column="22" selection-start-line="114" selection-start-column="22" selection-end-line="114" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/thumbnailSlider/thumbnailSlider/demo3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -973,8 +888,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/starter-template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.847973">
-          <caret line="663" column="0" selection-start-line="663" selection-start-column="0" selection-end-line="663" selection-end-column="0" />
+        <state vertical-scroll-proportion="-13.5">
+          <caret line="249" column="60" selection-start-line="249" selection-start-column="60" selection-end-line="249" selection-end-column="60" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -993,6 +908,14 @@
             <element signature="n#style#0;n#div#1;n#div#3;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7118644">
+          <caret line="335" column="14" selection-start-line="335" selection-start-column="14" selection-end-line="335" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
