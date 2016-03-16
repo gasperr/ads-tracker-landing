@@ -40,6 +40,15 @@ ADSTRACKER = {
             $(".list-group-item.advert").removeClass("selected");
             $(this).addClass("selected");
         });
+
+        $("[data-toggle='tab']").click(function(){
+            var $wrapper = $(this).parents(".common-wrapper");
+            var $target = $(this).parents(".slide").find($(this).attr("href"));
+            $wrapper.find(".tab-pane").removeClass("active");
+            if(!$target.hasClass("active")){
+                $target.addClass("active");
+            }
+        })
     },
 
     slider: function() {

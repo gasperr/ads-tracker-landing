@@ -469,6 +469,9 @@ a:hover, .btn:hover{
 .pareri-logo{
     background: url("../../dist/imgs/pareri_logo.png") no-repeat center;
 }
+.vw-logo{
+    background: url("../../dist/imgs/vw_logo.png") no-repeat center;
+}
 
 span.logo-undertitle{
     font-size: 11px;
@@ -546,6 +549,11 @@ span.logo-undertitle{
 
 .main-slider, .slide{
     height: 951px;
+}
+
+img.fake-ninja{
+    width: 650px;
+    height: 400px;
 }
 
 

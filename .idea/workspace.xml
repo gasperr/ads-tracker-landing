@@ -2,11 +2,103 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="848311f5-947c-4f86-8966-7889543085aa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/Joseph Barish.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/Sarah Benson.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/Sofia Acey.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/imgs/alfa_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/imgs/alfa_logo.xcf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/android-icon-144x144.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/android-icon-192x192.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/android-icon-36x36.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/android-icon-48x48.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/android-icon-72x72.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/android-icon-96x96.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/apple-icon-114x114.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/apple-icon-120x120.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/apple-icon-144x144.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/apple-icon-152x152.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/apple-icon-180x180.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/apple-icon-57x57.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/apple-icon-60x60.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/apple-icon-72x72.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/apple-icon-76x76.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/apple-icon-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/apple-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/imgs/auto_scout_logo_25.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/imgs/avtonet_logo_25.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/bc-android-contact-details-framed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/bc-android-contacts-framed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/bc-android-dashboard-framed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/bc-ipad-contacts-framed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/bc-ipad-dashboard.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/imgs/bmw_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/imgs/bmw_logo.xcf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/bootcards-icon-rounded-120x120.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/card-base-android.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/card-base-desktop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/card-base-ios.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/card-chart-android.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/card-chart-desktop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/card-chart-ios.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/card-file-android.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/card-file-desktop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/card-file-ios.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/card-form-ios.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/card-media-android.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/card-media-desktop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/card-media-ios.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/card-summary-android.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/card-summary-desktop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/card-summary-ios.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/favicon-16x16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/favicon-32x32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/favicon-96x96.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/imgs/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/imgs/mobilede_logo_25.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/imgs/motoit_logo_25.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/imgs/motosvet_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/imgs/motosvet_logo.xcf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/ms-icon-144x144.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/ms-icon-150x150.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/ms-icon-310x310.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/ms-icon-70x70.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/img/mustang_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/img/mustang_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/img/mustang_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/img/mustang_4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/img/mustang_5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/imgs/pareri_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/imgs/pareri_logo.xcf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/img/polo_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/img/polo_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/img/polo_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/img/polo_4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/img/porsche_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/img/porsche_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/img/porsche_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/img/porsche_4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/imgs/slo_regions.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/imgs/subito_logo_25.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/imgs/vw_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/about.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/css/bootcards-site.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/browserconfig.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/css/docs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/docs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/0.1.0/docs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/1.0.0/docs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/css/jquery.bxslider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/js/jquery.bxslider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/js/jquery.bxslider.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/site/images/manifest.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/css/main.css" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/js/main.js" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/ninja-slider.css" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/ninja-slider.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/ninja-slider.js" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/ninja-slider.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/starter-template.html" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/starter-template.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/thumbnail-slider.css" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/thumbnail-slider.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/thumbnail-slider.js" afterPath="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/thumbnail-slider.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ads-tracker-landing.iws" />
@@ -31,22 +123,17 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.172414">
-              <caret line="518" column="23" selection-start-line="518" selection-start-column="23" selection-end-line="518" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="472" column="48" selection-start-line="472" selection-start-column="48" selection-end-line="472" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.bxslider.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/js/jquery.bxslider.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-46.172413">
-              <caret line="1235" column="11" selection-start-line="1235" selection-start-column="11" selection-end-line="1235" selection-end-column="11" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
+      <file leaf-file-name="alfa_logo.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/imgs/alfa_logo.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -54,7 +141,7 @@
         <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+              <caret line="46" column="59" selection-start-line="46" selection-start-column="59" selection-end-line="46" selection-end-column="59" />
               <folding>
                 <element signature="e#0#40#0" expanded="false" />
               </folding>
@@ -65,11 +152,16 @@
       <file leaf-file-name="starter-template.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/starter-template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5714286">
-              <caret line="535" column="53" selection-start-line="535" selection-start-column="53" selection-end-line="535" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.847973">
+              <caret line="663" column="0" selection-start-line="663" selection-start-column="0" selection-end-line="663" selection-end-column="0" />
               <folding>
-                <element signature="n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#div#1;n#div#4;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -77,11 +169,19 @@
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#3;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#3;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#div#1;n#div#4;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#3;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="thumbnail-slider.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/thumbnail-slider.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -89,8 +189,8 @@
       <file leaf-file-name="thumbnail-slider.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/thumbnail-slider.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.1724138">
-              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+            <state vertical-scroll-proportion="-5.862069">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -99,8 +199,8 @@
       <file leaf-file-name="ninja-slider.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/ninja-slider.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.8888888">
-              <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+            <state vertical-scroll-proportion="-1.1724138">
+              <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -156,15 +256,16 @@
         <option value="$PROJECT_DIR$/ads-tracker-webapp-static/css/bootcards.css" />
         <option value="$PROJECT_DIR$/ads-tracker-webapp-static/css/moris.css" />
         <option value="$PROJECT_DIR$/ads-tracker-webapp-static/index.html" />
-        <option value="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/thumbnail-slider.css" />
         <option value="$PROJECT_DIR$/js/jquery-ui.min.js" />
         <option value="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/css/bootcards-ios.css" />
         <option value="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/css/bootcards-ios.min.css" />
-        <option value="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/js/jquery.bxslider.js" />
-        <option value="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/js/main.js" />
         <option value="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/thumbnail-slider2.js" />
         <option value="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/ninja-slider2.js" />
+        <option value="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/ninja-slider.css" />
         <option value="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/ninja-slider.js" />
+        <option value="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/thumbnail-slider.css" />
+        <option value="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/js/main.js" />
+        <option value="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/js/jquery.bxslider.js" />
         <option value="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/thumbnail-slider.js" />
         <option value="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/css/main.css" />
         <option value="$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/starter-template.html" />
@@ -207,7 +308,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -253,136 +353,11 @@
               <option name="myItemId" value="ads-tracker-webapp-static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootcards-1.1.2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ads-tracker-landing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ads-tracker-landing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ads-tracker-webapp-static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootcards-1.1.2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="samples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ads-tracker-landing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ads-tracker-landing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ads-tracker-webapp-static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootcards-1.1.2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="samples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slider" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ads-tracker-landing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ads-tracker-landing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ads-tracker-webapp-static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootcards-1.1.2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="samples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ads-tracker-landing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ads-tracker-landing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ads-tracker-webapp-static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootcards-1.1.2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ads-tracker-landing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ads-tracker-landing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ads-tracker-webapp-static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootcards-1.1.2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -506,19 +481,25 @@
       <option name="project" value="LOCAL" />
       <updated>1457999940605</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added slider and fucked everything up">
+      <created>1458083534896</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1458083534896</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="86" y="-8" width="1842" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16352549" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24002217" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32987553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -548,23 +529,14 @@
     <MESSAGE value="webapp static init" />
     <MESSAGE value="lots of stuff" />
     <MESSAGE value="added information from forums" />
-    <option name="LAST_COMMIT_MESSAGE" value="added information from forums" />
+    <MESSAGE value="added slider and fucked everything up" />
+    <option name="LAST_COMMIT_MESSAGE" value="added slider and fucked everything up" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/ninja-slider.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -577,10 +549,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -597,8 +565,13 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#4;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -606,10 +579,8 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#3;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#3;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#4;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -636,10 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -648,8 +615,13 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="606" column="0" selection-start-line="606" selection-start-column="0" selection-end-line="606" selection-end-column="0" />
           <folding>
-            <element signature="n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#4;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -657,10 +629,8 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#3;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#3;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#4;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -715,10 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -737,8 +703,13 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="306" column="52" selection-start-line="306" selection-start-column="52" selection-end-line="306" selection-end-column="52" />
           <folding>
-            <element signature="n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#4;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -746,10 +717,8 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#3;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#3;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#4;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -872,10 +841,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -884,13 +849,6 @@
         <state vertical-scroll-proportion="0.35363248">
           <caret line="128" column="18" selection-start-line="128" selection-start-column="13" selection-end-line="128" selection-end-column="18" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/thumbnail-slider.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -908,29 +866,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/ninja-slider.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="131" column="29" selection-start-line="131" selection-start-column="28" selection-end-line="131" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery-ui.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3325766">
           <caret line="5" column="24990" selection-start-line="5" selection-start-column="24982" selection-end-line="5" selection-end-column="24990" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/js/jquery.bxslider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-46.172413">
-          <caret line="1235" column="11" selection-start-line="1235" selection-start-column="11" selection-end-line="1235" selection-end-column="11" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -950,57 +890,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/ninja-slider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.8888888">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/thumbnail-slider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1724138">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.172414">
-          <caret line="518" column="23" selection-start-line="518" selection-start-column="23" selection-end-line="518" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="2091" column="18" selection-start-line="2091" selection-start-column="18" selection-end-line="2091" selection-end-column="18" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/ninja-slider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1309131">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/ninja-slider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.1724138">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/thumbnail-slider.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/ninja-slider.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="249" column="0" selection-start-line="249" selection-start-column="0" selection-end-line="249" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/js/jquery.bxslider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7681818">
+          <caret line="633" column="45" selection-start-line="633" selection-start-column="45" selection-end-line="633" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <caret line="46" column="59" selection-start-line="46" selection-start-column="59" selection-end-line="46" selection-end-column="59" />
           <folding>
             <element signature="e#0#40#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/thumbnail-slider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.862069">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/imgs/alfa_logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="472" column="48" selection-start-line="472" selection-start-column="48" selection-end-line="472" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/starter-template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5714286">
-          <caret line="535" column="53" selection-start-line="535" selection-start-column="53" selection-end-line="535" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.847973">
+          <caret line="663" column="0" selection-start-line="663" selection-start-column="0" selection-end-line="663" selection-end-column="0" />
           <folding>
-            <element signature="n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#4;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1008,10 +990,8 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#3;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#3;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#4;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -1,28 +1,33 @@
-var thumbnailSliderOptions =
-{
-    sliderId: "thumbnail-slider",
-    orientation: "vertical",
-    thumbWidth: "180px",
-    thumbHeight: "120px",
-    showMode: 2,
-    autoAdvance: true,
-    selectable: true,
-    slideInterval: 3000,
-    transitionSpeed: 900,
-    shuffle: false,
-    startSlideIndex: 0, //0-based
-    pauseOnHover: true,
-    initSliderByCallingInitFunc: false,
-    rightGap: 0,
-    keyboardNav: false,
-    mousewheelNav: false,
-    before: function (currentIdx, nextIdx, manual) {
-        if (typeof nslider != "undefined") nslider.displaySlide(nextIdx);
-    },
-    license: "mylicense"
-};
 
-var mcThumbnailSlider = new ThumbnailSlider(thumbnailSliderOptions);
+var mcThumbnailSlider;
+$("[data-thumbnail-slider]").each(function(){
+    var thumbnailSliderOptions =
+    {
+        sliderId: $(this).attr("id"),
+        orientation: "vertical",
+        thumbWidth: "180px",
+        thumbHeight: "120px",
+        showMode: 2,
+        autoAdvance: false,
+        selectable: true,
+        slideInterval: 3000,
+        transitionSpeed: 900,
+        shuffle: false,
+        startSlideIndex: 0, //0-based
+        pauseOnHover: true,
+        initSliderByCallingInitFunc: false,
+        rightGap: 0,
+        keyboardNav: false,
+        mousewheelNav: false,
+        before: function (currentIdx, nextIdx, manual) {
+            if (typeof nslider != "undefined") nslider.displaySlide(nextIdx);
+        },
+        license: "mylicense"
+    };
+    mcThumbnailSlider = new ThumbnailSlider(thumbnailSliderOptions);
+});
+
+
 /* ThumbnailSlider Slider v2015.10.26. Copyright(C) www.menucool.com. All rights reserved. */
 function ThumbnailSlider(a) {
     "use strict";
