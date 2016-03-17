@@ -13,7 +13,7 @@ $("[data-ninja-slider]").each(function () {
         shuffle: false,
         startSlideIndex: 0, //0-based
         navigateByTap: true,
-        pauseOnHover: false,
+        pauseOnHover: true,
         keyboardNav: true,
         before: function (currentIdx, nextIdx, manual) {
             if (manual && typeof mcThumbnailSlider != "undefined") mcThumbnailSlider.display(nextIdx);

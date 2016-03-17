@@ -11,7 +11,7 @@ $("[data-thumbnail-slider]").each(function(){
         autoAdvance: true,
         selectable: true,
         slideInterval: 10000,
-        transitionSpeed: 500,
+        transitionSpeed: 1500,
         shuffle: false,
         startSlideIndex: 0, //0-based
         pauseOnHover: true,
@@ -565,6 +565,11 @@ function ThumbnailSlider(a) {
         }
         i(b.pS + f - a[d], 1)
     }, J = function (b, c) {
+
+        $(".img-desc .caption").removeClass("active");
+        $(".img-desc .caption-"+b).addClass("active");
+
+
         b = K(b);
         if (!c && (y || b == f))return;
         var d = nb(b, c);

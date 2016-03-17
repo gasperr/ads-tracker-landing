@@ -667,10 +667,51 @@ ul.social-buttons li a {
 }
 .timeline .inner-timeline{
     padding: 5px;
-    border: 1px solid #008ebc;
+    border: 1px solid #337ab7;
     border-radius: 4px;
 }
 
 .navbar-default {
     background-color: #337ab7;
+}
+
+.img-desc{
+    border-top: 10px solid #337ab7;
+}
+
+.img-desc .caption{
+    color: #337ab7;
+    margin-bottom: 20px;
+    font-size: 17px;
+    display: none;
+}
+.img-desc .caption.active{
+    display: inherit;
+}
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+
+    border-top: 15px solid #337ab7;
+}
+.caption-1 .arrow-down{
+    margin-left: 40%;
+}
+.caption-2 .arrow-down{
+    margin-left: 60%;
+}
+.caption-3 .arrow-down{
+    margin-left: 55%;
+}
+.caption-4 .arrow-down{
+    margin-left: 60%;
+}
+.caption-4 .arrow-down{
+    margin-left: 65%;
+}
+.caption-5 .arrow-down{
+    margin-left: 49%;
 }
