@@ -27,6 +27,9 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/creative.css" type="text/css">
 
+
+
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -34,11 +37,17 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <link href="slider/ninja-slider.css" rel="stylesheet"/>
+    <link href="slider/thumbnail-slider.css" rel="stylesheet"/>
+
+
+
 </head>
 
 <body id="page-top">
 
 <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -75,12 +84,57 @@
 </nav>
 
 <header>
-    <div class="header-content">
-        <div class="header-content-inner">
-            <h1>Get your favourite item within seconds</h1>
-            <hr>
-            <p>We make a dream of having it into a reality of owning it</p>
-            <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+    <!--<div class="header-content">-->
+        <!--<div class="header-content-inner">-->
+            <!--<h1>Get your favourite item within seconds</h1>-->
+            <!--<hr>-->
+            <!--<p>We make a dream of having it into a reality of owning it</p>-->
+            <!--<a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>-->
+        <!--</div>-->
+    <!--</div>-->
+    <div class="row">
+        <div class="col-md-10">
+            <div id="ninja-slider-1" class="ninja-slider" data-ninja-slider="this">
+                <div class="slider-inner">
+                    <ul>
+                        <li><a class="ns-img" href="img/app_pics/mustang_double_1.jpg"></a></li>
+                        <li><a class="ns-img" href="img/app_pics/polo_double_1.jpg"></a></li>
+                        <li><a class="ns-img" href="img/app_pics/polo_double_2_educated.jpg"></a></li>
+                        <li><a class="ns-img" href="img/app_pics/popup_reuters.jpg"></a></li>
+                        <li><a class="ns-img" href="img/app_pics/single_view_basic.jpg"></a></li>
+                        <li><a class="ns-img" href="img/app_pics/swiping.jpg"></a></li>
+                    </ul>
+                    <div class="fs-icon" title="Expand/Close"></div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+        </div>
+        <div class="col-md-2">
+            <div id="thumbnail-slider-1" class="thumbnail-slider"
+                 data-thumbnail-slider="this">
+                <div class="inner">
+                    <ul>
+                        <li>
+                            <a class="thumb" href="img/app_pics/mustang_double_1.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="img/app_pics/polo_double_1.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="img/app_pics/polo_double_2_educated.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="img/app_pics/popup_reuters.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="img/app_pics/single_view_basic.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="img/app_pics/swiping.jpg"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 </header>
@@ -98,6 +152,8 @@
             </div>
         </div>
     </div>
+
+
 </section>
 
 <section id="services">
@@ -407,6 +463,18 @@
 
 <!-- Custom Theme JavaScript -->
 <script src="js/creative.js"></script>
+
+<script src="slider/ninja-slider.js"></script>
+<script src="slider/thumbnail-slider.js"></script>
+
+<script>
+    $(document).ready(function () {
+        setTimeout(function(){
+            $("#thumbnail-slider-1").css("height", $("#ninja-slider-1").height())
+        }, 100)
+
+    });
+</script>
 
 </body>
 
