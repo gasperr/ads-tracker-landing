@@ -181,9 +181,10 @@ header {
     text-align: center;
     color: #fff;
     /*background-image: url(../img/header_2.jpg);*/
+    /*background-image: url(../img/GIF.gif);*/
     /*background-image: url(../img/app_pics/mustang_double_1.jpg);*/
-    background: white;
-    opacity: 1;
+    /*background: white;*/
+    /*opacity: .5;*/
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -191,12 +192,33 @@ header {
     -o-background-size: cover;
     margin-top: 50px;
 }
+header:after{
+    content: ' ';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(../img/pixl.png);
+    z-index: 1;
+}
+
+.sub-description{
+    line-height: 2;
+    padding-bottom: 0;
+}
+
+section.demo-pics{
+    padding: 0;
+}
 
 header .header-content {
     position: relative;
     width: 100%;
     padding: 100px 15px;
     text-align: center;
+    z-index: 2;
 }
 
 header .header-content .header-content-inner h1 {
@@ -219,7 +241,7 @@ header .header-content .header-content-inner p {
 
 @media(min-width:768px) {
     header {
-        /*min-height: 100%;*/
+        min-height: 100%;
     }
 
     header .header-content {
@@ -280,7 +302,7 @@ header .header-content .header-content-inner p {
     text-align: center;
     color: #fff;
     opacity: 0;
-    background: rgba(240,95,64,.9);
+    background: #337ab7;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -487,7 +509,9 @@ body {
 
 .team-member img {
     margin: 0 auto;
-    border: 7px solid #fff
+    border: 7px solid #fff;
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
 }
 
 .team-member h4 {
@@ -502,6 +526,15 @@ body {
 
 .text-muted{
     color: #222;
+}
+
+.container.subscribe{
+    margin-bottom: 50px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #ddd;
+}
+.container.subscribe .fa-share{
+    font-size: 25px;
 }
 
 ul.social-buttons li a {
