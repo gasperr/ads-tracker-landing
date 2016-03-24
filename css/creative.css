@@ -16,13 +16,13 @@ body {
 
 hr {
     max-width: 50px;
-    /*border-color: #337ab7;*/
-    border-color: white;
+    border-color: #337ab7;
+    /*border-color: white;*/
     border-width: 3px;
 }
 
-hr.light {
-    border-color: #fff;
+hr.white {
+    border-color: white;
 }
 
 a {
@@ -747,4 +747,12 @@ ul.social-buttons li a {
 }
 .caption-5 .arrow-down{
     margin-left: 49%;
+}
+
+footer .container span{
+    font-size: small;
+    color: lightgrey;
+}
+footer .container span>a{
+    color: lightgrey;
 }
