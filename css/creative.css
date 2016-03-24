@@ -239,18 +239,52 @@ header .header-content .header-content-inner p {
     color: rgba(255,255,255,1);
 }
 
-@media(min-width:768px) {
-    header {
-        min-height: 100%;
+header .header-content {
+    position: absolute;
+    top: 50%;
+    padding: 0 50px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+@media(max-width:767px){
+    #more, #top-hr{
+        visibility: hidden;
+        height: 0;
+        margin: 0;
+        padding: 0;
     }
 
     header .header-content {
         position: absolute;
         top: 50%;
         padding: 0 50px;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
+        -webkit-transform: translateY(-25%);
+        -ms-transform: translateY(-25%);
+        transform: translateY(-25%);
+    }
+    .header-content .main-title{
+        font-size: 25px;
+    }
+
+}
+
+@media(min-width:768px) {
+    header {
+        /*min-height: 100%;*/
+    }
+
+    /*header .header-content {*/
+        /*position: absolute;*/
+        /*top: 50%;*/
+        /*padding: 0 50px;*/
+        /*-webkit-transform: translateY(-50%);*/
+        /*-ms-transform: translateY(-50%);*/
+        /*transform: translateY(-50%);*/
+    /*}*/
+    .header-content .main-title{
+        font-size: 35px;
     }
 
     header .header-content .header-content-inner {
