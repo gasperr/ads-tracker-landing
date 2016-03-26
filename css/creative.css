@@ -790,3 +790,19 @@ footer .container span{
 footer .container span>a{
     color: lightgrey;
 }
+
+#carousel-features{
+    border-top: 1px solid #ddd;
+}
+.carousel-content{
+    width: 85%;
+}
+.carousel-control {
+    width: 10%;
+}
+.carousel-indicators li {
+    border: 1px solid #337ab7;
+}
+.carousel-indicators .active {
+    background-color: #337ab7;
+}
