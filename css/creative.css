@@ -543,9 +543,9 @@ body {
 
 .team-member img {
     margin: 0 auto;
-    border: 7px solid #fff;
-    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
-    filter: grayscale(100%);
+    border: 2px solid #337ab7;
+    /*-webkit-filter: grayscale(100%); /!* Chrome, Safari, Opera *!/*/
+    /*filter: grayscale(100%);*/
 }
 
 .team-member h4 {
@@ -573,7 +573,7 @@ body {
 
 ul.social-buttons li a {
     display: block;
-    background-color: white;
+    background-color: #337ab7;
     height: 40px;
     width: 40px;
     border-radius: 100%;
@@ -785,10 +785,10 @@ ul.social-buttons li a {
 
 footer .container span{
     font-size: small;
-    color: lightgrey;
+    /*color: lightgrey;*/
 }
 footer .container span>a{
-    color: lightgrey;
+    /*color: lightgrey;*/
 }
 
 #carousel-features{
@@ -796,9 +796,11 @@ footer .container span>a{
 }
 .carousel-content{
     width: 85%;
+    font-weight: 600;
+    line-height: 2;
 }
 .carousel-control {
-    width: 10%;
+    width: 5%;
 }
 .carousel-indicators li {
     border: 1px solid #337ab7;
@@ -806,3 +808,33 @@ footer .container span>a{
 .carousel-indicators .active {
     background-color: #337ab7;
 }
+
+.carousel-bg-pic{
+    max-width: 100%;
+    position:relative;
+    opacity: .2;
+}
+.carousel-block{
+    position: absolute;
+}
+
+@media screen and (min-width: 768px) {
+    .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+        margin-right: -30px;
+    }
+    .carousel-control .glyphicon-chevron-left, .carousel-control .icon-next {
+        margin-left: -30px;
+    }
+}
+
+.social-buttons .fa{
+    color: white;
+}
+
+.service-box .fa{
+    color: white;
+}
+.service-box .text-muted{
+    color: white;
+}
+
