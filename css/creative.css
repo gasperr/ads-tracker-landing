@@ -838,3 +838,7 @@ footer .container span>a{
     color: white;
 }
 
+.form-control.error{
+    border: 2px solid red;
+}
+

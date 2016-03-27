@@ -46,15 +46,19 @@
         e.preventDefault();
         var mail = $("#mail-input").val();
         if (mail) {
-            //$.post("http://163.172.134.54:8080/v1/subscribe",
-            $.post("http://localhost:8080/v1/fetch/subscribe",
-                {
-                    email: mail,
-                    date: new Date()
+            $('#subscriber-form').ajaxForm({
+                url: '/subscribe', // or whatever
+                success: function(succ){
+                    $("#subscribe-click").html("<i class='fa fa-check' style='font-size: 25px; color: chartreuse'></i>");
+                    $("#mail-input").removeClass("error");
                 },
-                function (data, status) {
-                    alert("Data: " + data + "\nStatus: " + status);
-                });
+                error: function(err){
+                    console.log(err);
+                },
+                resetForm:true
+            }).submit();
+        } else{
+            $("#mail-input").removeClass("error").addClass("error");
         }
 
     });

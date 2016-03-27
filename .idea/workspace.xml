@@ -1,7 +1,154 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="848311f5-947c-4f86-8966-7889543085aa" name="Default" comment="">
+    <list default="true" id="848311f5-947c-4f86-8966-7889543085aa" name="Default" comment="added favicon">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server.js" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\dist\css\bootcards-android.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\dist\css\bootcards-android.css.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\dist\css\bootcards-android.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\dist\css\bootcards-desktop.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\dist\css\bootcards-desktop.css.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\dist\css\bootcards-desktop.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\dist\css\bootcards-ios.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\dist\css\bootcards-ios.css.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\dist\css\bootcards-ios.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\dist\css\jquery.bxslider.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\dist\fonts\icomoon.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\dist\fonts\icomoon.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\dist\fonts\icomoon.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\dist\fonts\icomoon.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\dist\imgs\alfa_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\dist\imgs\alfa_logo.xcf" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\dist\imgs\auto_scout_logo_25.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\dist\imgs\avtonet_logo_25.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\dist\imgs\bmw_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\dist\imgs\bmw_logo.xcf" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\dist\imgs\logo.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\dist\imgs\mobilede_logo_25.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\dist\imgs\motoit_logo_25.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\dist\imgs\motosvet_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\dist\imgs\motosvet_logo.xcf" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\dist\imgs\pareri_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\dist\imgs\pareri_logo.xcf" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\dist\imgs\slo_regions.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\dist\imgs\subito_logo_25.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\dist\imgs\vw_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\dist\imgs\vw_logo.xcf" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\dist\js\bootcards.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\dist\js\bootcards.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\dist\js\bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\dist\js\bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\dist\js\jquery.bxslider.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\dist\js\jquery.bxslider.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\samples\css\main.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\samples\double-navbar.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\samples\img\Jamie Biddy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\samples\img\Jerry Bess.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\samples\img\Joseph Barish.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\samples\img\Mark Booth.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\samples\img\Sofia Acey.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\samples\img\avto1.JPG" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\samples\img\avto2.JPG" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\samples\img\avto3.JPG" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\samples\img\moto1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\samples\img\moto2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\samples\img\moto3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\samples\img\moto4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\samples\img\mustang_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\samples\img\mustang_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\samples\img\mustang_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\samples\img\mustang_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\samples\img\mustang_5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\samples\img\polo_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\samples\img\polo_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\samples\img\polo_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\samples\img\polo_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\samples\img\porsche_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\samples\img\porsche_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\samples\img\porsche_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\samples\img\porsche_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\samples\js\main.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\samples\slider\ninja-slider.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\samples\slider\ninja-slider.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\samples\slider\thumbnail-slider.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\samples\slider\thumbnail-slider.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\samples\starter-template.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\0.1.0\docs.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\1.0.0\docs.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\about.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\css\bootcards-site.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\css\docs.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\docs.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\Joseph Barish.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\Sarah Benson.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\Sofia Acey.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\android-icon-144x144.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\android-icon-192x192.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\android-icon-36x36.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\android-icon-48x48.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\android-icon-72x72.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\android-icon-96x96.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\apple-icon-114x114.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\apple-icon-120x120.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\apple-icon-144x144.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\apple-icon-152x152.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\apple-icon-180x180.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\apple-icon-57x57.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\apple-icon-60x60.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\apple-icon-72x72.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\apple-icon-76x76.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\apple-icon-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\apple-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\bc-android-contact-details-framed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\bc-android-contacts-framed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\bc-android-dashboard-framed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\bc-ipad-contacts-framed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\bc-ipad-dashboard.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\bootcards-icon-rounded-120x120.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\browserconfig.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\card-base-android.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\card-base-desktop.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\card-base-ios.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\card-chart-android.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\card-chart-desktop.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\card-chart-ios.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\card-file-android.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\card-file-desktop.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\card-file-ios.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\card-form-ios.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\card-media-android.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\card-media-desktop.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\card-media-ios.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\card-summary-android.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\card-summary-desktop.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\card-summary-ios.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\favicon-16x16.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\favicon-32x32.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\favicon-96x96.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\ms-icon-144x144.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\ms-icon-150x150.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\ms-icon-310x310.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\ads-tracker-webapp-static\bootcards-1.1.2\site\images\ms-icon-70x70.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\css\js-image-slider.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\img\portfolio\1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\img\portfolio\2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\img\portfolio\3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\img\portfolio\4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\img\portfolio\5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\img\portfolio\6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\js\cbpAnimatedHeader.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\js\classie.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\js\js-image-slider.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\less\creative.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\less\mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\other\ads-tracker-landing\less\variables.less" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ads-tracker-landing.iml" afterPath="$PROJECT_DIR$/.idea/ads-tracker-landing.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/creative.css" afterPath="$PROJECT_DIR$/css/creative.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/creative.js" afterPath="$PROJECT_DIR$/js/creative.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
@@ -26,11 +173,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="creative.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="creative.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/creative.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49679488">
-              <caret line="185" column="26" selection-start-line="185" selection-start-column="26" selection-end-line="186" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="841" column="13" selection-start-line="841" selection-start-column="13" selection-end-line="841" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -39,13 +186,21 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.818182">
-              <caret line="90" column="15" selection-start-line="90" selection-start-column="15" selection-end-line="90" selection-end-column="15" />
+            <state vertical-scroll-proportion="-10.153846">
+              <caret line="468" column="16" selection-start-line="468" selection-start-column="16" selection-end-line="468" selection-end-column="16" />
               <folding>
                 <element signature="n#style#0;n#video#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#strong#0;n#p#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#strong#1;n#p#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#5;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#a#0;n#form#0;n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#p#0;n#div#2;n#div#0;n#div#1;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#span#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -54,13 +209,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="creative.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="creative.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/creative.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.50961536">
+              <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
+                <marker date="1459039079722" expanded="true" signature="1525:1559" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#41#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -71,9 +239,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Html5" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="Html5" />
       </list>
     </option>
   </component>
@@ -115,9 +283,16 @@
         <option value="$PROJECT_DIR$/js/wow.min.js" />
         <option value="$PROJECT_DIR$/slider/thumbnail-slider.js" />
         <option value="$PROJECT_DIR$/css/bootstrap.min.css" />
-        <option value="$PROJECT_DIR$/js/creative.js" />
+        <option value="$PROJECT_DIR$/js/bootstrap4-alpha.js" />
+        <option value="$PROJECT_DIR$/css/bootstrap4-alpha.css" />
+        <option value="$PROJECT_DIR$/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/js/jquery.form.js" />
+        <option value="$PROJECT_DIR$/tpo.html" />
+        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/creative.css" />
+        <option value="$PROJECT_DIR$/js/creative.js" />
+        <option value="$PROJECT_DIR$/emails" />
       </list>
     </option>
   </component>
@@ -177,6 +352,48 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ads-tracker-landing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ads-tracker-landing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ads-tracker-landing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ads-tracker-landing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ads-tracker-landing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ads-tracker-landing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -203,20 +420,20 @@
       <recent name="C:\development\other\ads-tracker-landing" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+  <component name="RunManager" selected="JavaScript Debug.tpo.html">
     <configuration default="false" name="index.html (2)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/ads-tracker-landing/ads-tracker-webapp-static/bootcards-1.1.2/index.html">
       <method />
     </configuration>
     <configuration default="false" name="starter-template.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ads-tracker-landing/ads-tracker-webapp-static/bootcards-1.1.2/samples/starter-template.html">
       <method />
     </configuration>
-    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ads-tracker-landing/index.html">
-      <method />
-    </configuration>
     <configuration default="false" name="starter-template.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/ads-tracker-landing/ads-tracker-webapp-static/bootcards-1.1.2/samples/starter-template.html">
       <method />
     </configuration>
     <configuration default="false" name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/ads-tracker-landing/index.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="tpo.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/ads-tracker-landing/tpo.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -260,17 +477,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (2)" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.starter-template.html (1)" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.starter-template.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.starter-template.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.tpo.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.starter-template.html (1)" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.starter-template.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html (2)" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.tpo.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html (2)" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.starter-template.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.starter-template.html (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -375,20 +592,56 @@
       <option name="project" value="LOCAL" />
       <updated>1458858571255</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="fixed font size and white line">
+      <created>1458859523963</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1458859523963</updated>
+    </task>
+    <task id="LOCAL-00017" summary="carousel added, added imgs">
+      <created>1458996541879</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1458996541879</updated>
+    </task>
+    <task id="LOCAL-00018" summary="unversioned">
+      <created>1458996598107</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1458996598107</updated>
+    </task>
+    <task id="LOCAL-00019" summary="visual fixes, responsive fixes">
+      <created>1459006080906</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1459006080906</updated>
+    </task>
+    <task id="LOCAL-00020" summary="added favicon">
+      <created>1459006981237</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1459006981237</updated>
+    </task>
+    <task id="LOCAL-00021" summary="minor">
+      <created>1459014880800</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1459014880800</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="86" y="-8" width="1842" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18292683" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2754989" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39896372" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12344398" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39834026" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41908714" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32987553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -401,6 +654,26 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41908714" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32987553" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27591974" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39834026" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28423238" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -422,45 +695,22 @@
     <MESSAGE value="commit" />
     <MESSAGE value="slider to landing" />
     <MESSAGE value="slider landing done" />
-    <MESSAGE value="unversioned" />
     <MESSAGE value="added new header, added subscription" />
     <MESSAGE value="unversioned files" />
     <MESSAGE value="responsive main video" />
-    <option name="LAST_COMMIT_MESSAGE" value="responsive main video" />
+    <MESSAGE value="fixed font size and white line" />
+    <MESSAGE value="carousel added, added imgs" />
+    <MESSAGE value="unversioned" />
+    <MESSAGE value="visual fixes, responsive fixes" />
+    <MESSAGE value="added favicon" />
+    <MESSAGE value="minor" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/thumbnail-slider.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/ninja-slider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/ninja-slider.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="131" column="29" selection-start-line="131" selection-start-column="28" selection-end-line="131" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/thumbnailSlider/thumbnailSlider/demo3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -468,55 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/starter-template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="306" column="52" selection-start-line="306" selection-start-column="52" selection-end-line="306" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/thumbnail-slider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/thumbnail-slider.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/ninja-slider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="2" selection-end-line="26" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/ninja-slider.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="131" column="29" selection-start-line="131" selection-start-column="28" selection-end-line="131" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -542,13 +743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/creative.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0192308">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -571,100 +765,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6356838">
-          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/thumbnailSlider/thumbnailSlider/demo3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/js/bootcards.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35363248">
-          <caret line="128" column="18" selection-start-line="128" selection-start-column="13" selection-end-line="128" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36115107">
-          <caret line="320" column="15" selection-start-line="320" selection-start-column="14" selection-end-line="320" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/css/bootcards-ios.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73846155">
-          <caret line="878" column="0" selection-start-line="878" selection-start-column="0" selection-end-line="880" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery-ui.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3325766">
-          <caret line="5" column="24990" selection-start-line="5" selection-start-column="24982" selection-end-line="5" selection-end-column="24990" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/css/bootcards-android.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="137" column="1" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/css/bootcards-ios.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="757" column="28" selection-start-line="757" selection-start-column="28" selection-end-line="757" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="2091" column="18" selection-start-line="2091" selection-start-column="18" selection-end-line="2091" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/ninja-slider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/ninja-slider.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="249" column="0" selection-start-line="249" selection-start-column="0" selection-end-line="249" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/js/jquery.bxslider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7681818">
-          <caret line="633" column="45" selection-start-line="633" selection-start-column="45" selection-end-line="633" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/thumbnail-slider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/dist/imgs/alfa_logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/jsImgSlider/jsImgSlider/demo3.html">
@@ -674,32 +779,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="176" column="16" selection-start-line="176" selection-start-column="16" selection-end-line="176" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/slider/ninja-slider.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/slider/thumbnail-slider.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="88" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -734,24 +818,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ads-tracker-webapp-static/bootcards-1.1.2/samples/starter-template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.576923">
-          <caret line="1791" column="75" selection-start-line="1791" selection-start-column="75" selection-end-line="1791" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/structural.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="92" column="16" selection-start-line="92" selection-start-column="16" selection-end-line="92" selection-end-column="16" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/app_pics/polo_double_2_educated.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/img/app_pics/polo_double_1.png">
@@ -761,31 +833,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33259913">
-          <caret line="1007" column="17" selection-start-line="1007" selection-start-column="11" selection-end-line="1007" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2494" column="1" selection-start-line="2494" selection-start-column="1" selection-end-line="2494" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/creative.js">
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+          <caret line="6403" column="0" selection-start-line="6403" selection-start-column="0" selection-end-line="6420" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/app_pics/mustang_double_1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/app_pics/polo_double_2_educated.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery-ui.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="6" column="26110" selection-start-line="6" selection-start-column="26110" selection-end-line="6" selection-end-column="26110" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1279" column="4" selection-start-line="1279" selection-start-column="4" selection-end-line="1279" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.818182">
-          <caret line="90" column="15" selection-start-line="90" selection-start-column="15" selection-end-line="90" selection-end-column="15" />
+        <state vertical-scroll-proportion="-10.153846">
+          <caret line="468" column="16" selection-start-line="468" selection-start-column="16" selection-end-line="468" selection-end-column="16" />
           <folding>
             <element signature="n#style#0;n#video#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#strong#0;n#p#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#strong#1;n#p#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#5;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#0;n#form#0;n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#2;n#div#0;n#div#1;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#span#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -795,9 +909,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/creative.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49679488">
-          <caret line="185" column="26" selection-start-line="185" selection-start-column="26" selection-end-line="186" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="841" column="13" selection-start-line="841" selection-start-column="13" selection-end-line="841" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/creative.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50961536">
+          <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1459039079722" expanded="true" signature="1525:1559" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

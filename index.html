@@ -464,10 +464,10 @@
             <p>If you want, we can inform you as soon as a free demo version is available</p>
         </div>
         <div class="form-inline" style="text-align: center;">
-            <div class="form-group">
-                <input type="email" class="form-control" id="mail-input" placeholder="Email address">
-                <a href="#" id="subscribe-click"><i class="fa fa-share" style="color: white;;"></i></a>
-            </div>
+            <form class="form-group" method="post" id="subscriber-form">
+                <input type="email" class="form-control" id="mail-input" placeholder="Email address" name="email">
+                <a href="#" id="subscribe-click"><i class="fa fa-share" style="color: white;"></i></a>
+            </form>
         </div>
 
     </div>
@@ -534,6 +534,7 @@
 
 <!-- jQuery -->
 <script src="js/jquery.js"></script>
+<script src="js/jquery.form.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.min.js"></script>
