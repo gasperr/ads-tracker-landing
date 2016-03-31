@@ -13,6 +13,8 @@ var fs = require('fs');
 //
 //});
 
+var port = parseInt(process.argv[2], 10) || 80;
+
 app.use(express.static('.'));
 
 app.use(bodyParser.urlencoded({
@@ -32,8 +34,8 @@ app.post('/subscribe', function (req, res) {
     res.send(req.body);
 });
 
-app.listen(3000, function(){
-    console.log("started on port 3000");
+app.listen(port, function(){
+    console.log("started on port "+port);
 });
 
 

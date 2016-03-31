@@ -1,6 +1,3 @@
-/**
- * Created by gandrejc on 26.03..
- */
 /*!
  * jQuery Form Plugin
  * version: 3.51.0-2014.06.20
@@ -75,7 +72,7 @@
     var hasProp = !!$.fn.prop;
 
 // attr2 uses prop when it can but checks the return type for
-// an expected string.  this accounts for the case where a form
+// an expected string.  this accounts for the case where a form 
 // contains inputs with names like "action" or "method"; in those
 // cases "prop" returns the element
     $.fn.attr2 = function() {
