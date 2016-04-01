@@ -51,7 +51,7 @@ locales = {
         "footer.subscribe.subtitle": "Če želite, vas lahko obvestimo takoj, ko bo demo aplikacija na voljo",
         "footer.subscribe.placeholder": "Email naslov",
         "footer.intouch.title": ". . . ali pa nas kontaktirajte kar tako.",
-        "footer.intouch.subtitle": "Želite biti del naše zgodbe? Super, pokličite nas ali pošljite email in odgovorili bomo takoj, ko bo mogoče!"
+        "footer.intouch.subtitle": "Želite biti del naše zgodbe? Super, pokličite nas ali nam pošljite email in odgovorili bomo takoj, ko bo mogoče!"
 
 
     },
