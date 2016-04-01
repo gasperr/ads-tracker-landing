@@ -842,3 +842,124 @@ footer .container span>a{
     border: 2px solid red;
 }
 
+
+/*flags*/
+.flag-icon, .flag-icon-background {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50%
+}
+
+.flag-icon {
+    position: relative;
+    display: inline-block;
+    width: 1.33333333em;
+    line-height: 1em;
+    margin-top: 20px;
+    margin-left: 20px;
+    opacity: 0.3;
+}
+
+.flag-icon.first {
+    margin-left: 17px;
+}
+.flag-icon.active {
+    opacity: 1;
+}
+.flag-icon:not(.active):hover{
+    opacity: 0.8;
+}
+
+.flag-icon:before {
+    content: "\00a0"
+}
+
+.flag-icon.flag-icon-squared {
+    width: 1em
+}
+.flag-icon-si {
+    background-image: url('../img/flags/4x3/si.svg');
+}
+
+.flag-icon-si.flag-icon-squared {
+    background-image: url('../img/flags/1x1/si.svg');
+}
+.flag-icon-gb {
+    background-image: url('../img/flags/4x3/gb.svg')
+}
+
+.flag-icon-gb.flag-icon-squared {
+    background-image: url('../img/flags/1x1/gb.svg')
+}
+
+.no-margin{
+    margin: 0 !important;
+}
+.no-padding{
+    padding: 0 !important;
+}
+.i18n-wrapper{
+    width: 25px;
+    margin-top: 5px;
+}
+.flag-icon.selected{
+    opacity: 1;
+}
+@media(max-width: 768px){
+    .i18n-wrapper{
+        margin-left: 15px;
+    }
+}
+
+/*asdasdasdas*/
+.box {
+    width: 200px; height: 300px;
+    position: relative;
+    border: 1px solid #BBB;
+    background: #EEE;
+}
+.ribbon {
+    position: absolute;
+    left: -5px; top: -5px;
+    z-index: 5;
+    overflow: hidden;
+    width: 150px; height: 150px;
+    text-align: right;
+}
+.ribbon span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 40px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    width: 200px;
+    display: block;
+    background: #79A70A;
+    background: linear-gradient(#2989d8 0%, #337AB7 100%);
+    box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 38px; left: -42px;
+}
+.ribbon span::before {
+    content: "";
+    position: absolute; left: 0px; top: 100%;
+    z-index: -1;
+    border-left: 3px solid #337AB7;
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #337AB7;
+}
+.ribbon span::after {
+    content: "";
+    position: absolute; right: 0px; top: 100%;
+    z-index: -1;
+    border-left: 3px solid transparent;
+    border-right: 3px solid #337AB7;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #337AB7;
+}
+
+

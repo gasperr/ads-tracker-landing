@@ -63,7 +63,22 @@
 
     });
 
+
+    $("#locale-sl").click(function(e){
+        e.preventDefault();
+        $(this).removeClass("selected").addClass("selected");
+        $("#locale-en").removeClass("selected");
+        T.doTranslate("sl");
+    });
+    $("#locale-en").click(function(e){
+        e.preventDefault();
+        $(this).removeClass("selected").addClass("selected");
+        $("#locale-sl").removeClass("selected");
+        T.doTranslate("en");
+    });
+
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
+    T.init();
 
 })(jQuery); // End of use strict

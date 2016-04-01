@@ -35,8 +35,6 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <link href="slider/ninja-slider.css" rel="stylesheet"/>
-    <link href="slider/thumbnail-slider.css" rel="stylesheet"/>
 
     <link rel="icon"
           type="image/png"
@@ -66,16 +64,22 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a class="page-scroll" href="#about">About</a>
+                    <a class="page-scroll" href="#about" data-locale="n.about">About</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#services">Services</a>
+                    <a class="page-scroll" href="#services" data-locale="n.services">Services</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#team">Our Team</a>
+                    <a class="page-scroll" href="#team" data-locale="n.team">Our Team</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#contact">Contact</a>
+                    <a class="page-scroll" href="#contact" data-locale="n.contact">Contact</a>
+                </li>
+                <li class="i18n-wrapper">
+                    <a href="#" id="locale-sl" class="flag-icon first flag-icon-si sl no-margin no-padding"
+                       data-locale="sl"></a>
+                    <a href="#" id="locale-en" class="flag-icon flag-icon-gb en en-GB en-US no-margin no-padding"
+                       data-locale="en"></a>
                 </li>
             </ul>
         </div>
@@ -86,17 +90,21 @@
 
 
 <header>
+    <div class="ribbon"><span data-locale="ribbon">KMALU</span></div>
+
     <video autoplay="" loop="" id="bgvid" poster="img/poster_video.png"
            style="width: 100%; height: auto; margin-top: -50px;">
+        <!--<source src="img/landing_header_v2_qtp.mp4" type="video/mp4">-->
         <source src="img/landing_header_v2_qtp.mp4" type="video/mp4">
     </video>
     <div class="header-content">
         <div class="header-content-inner">
-            <h1>Get the best vehicle on the market</h1>
+            <h1 data-locale="main.title">Get the best vehicle on the market</h1>
             <hr class="white" id="top-hr">
             <!--<p>We make a dream of having it into a reality of owning it</p>-->
-            <p>No more second guessing when buying a second-hand car</p>
-            <a href="#about" id="more" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+            <p data-locale="main.subtitle">No more second guessing when buying a second-hand car</p>
+            <a href="#about" id="more" class="btn btn-primary btn-xl page-scroll" data-locale="main.button">Find Out
+                More</a>
         </div>
     </div>
 </header>
@@ -105,10 +113,12 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading">We make sure you know what you buy . . .</h2>
+                <h2 class="section-heading" data-locale="sub.title">We make sure you know what you buy . . .</h2>
                 <hr class="white">
-                <p class="text-faded sub-description">. . . by aggregating all data you need to make an <strong
-                        style="color: white; font-size: large">educated buy</strong> of a used vehicle. We also notify
+                <p class="text-faded sub-description" data-locale="sub.sub">. . . by aggregating all data you need to
+                    make an <strong
+                            style="color: white; font-size: large">educated buy</strong> of a used vehicle. We also
+                    notify
                     you within seconds of your desired item arriving on the
                     internet, thus giving you the ability to <strong style="color: white; font-size: large">stay up to
                         date</strong> with advertisements concerning your
@@ -143,13 +153,15 @@
                     </div>
                     <div class="col-md-6 col-sm-12">
                         <div class="carousel-block">
-                            <h2 class="carousel-title">Users' Collaboration</h2>
+                            <h2 class="carousel-title" data-locale="slide.users.title">Users' Collaboration</h2>
 
-                            <p class="carousel-content">From integrated users' collaboration, where everyone can share
+                            <p class="carousel-content" data-locale="slide.users.content">From integrated users'
+                                collaboration, where everyone can share
                                 opinions, to data gathered elsewhere on the internet - if anyone said
                                 anything about that vehicle, we make sure you know it before buying.</p>
                         </div>
-                        <img class="carousel-bg-pic" src="img/everything_in_one_place_edited.png" alt="easy controlling">
+                        <img class="carousel-bg-pic" src="img/everything_in_one_place_edited.png"
+                             alt="easy controlling">
                     </div>
                 </div>
             </div>
@@ -162,10 +174,12 @@
                     </div>
                     <div class="col-md-6 col-sm-12">
                         <div class="carousel-block">
-                            <h2 class="carousel-title">The power of information!</h2>
+                            <h2 class="carousel-title" data-locale="slide.power.title">The power of information!</h2>
 
-                            <p class="carousel-content">Using our platform, we guarantee you'll be able to buy your next
-                                second-hand car in confidence! All you need to do is use the power of information we give you to your
+                            <p class="carousel-content" data-locale="slide.power.content">Using our platform, we
+                                guarantee you'll be able to buy your next
+                                second-hand car in confidence! All you need to do is use the power of information we
+                                give you to your
                                 advantage!</p>
                         </div>
                         <img class="carousel-bg-pic" src="img/magnifying-glass_edited.png" alt="easy controlling">
@@ -181,9 +195,10 @@
                     </div>
                     <div class="col-md-6 col-sm-12">
                         <div class="carousel-block">
-                            <h2 class="carousel-title">Alerts & notifications</h2>
+                            <h2 class="carousel-title" data-locale="slide.alerts.title">Alerts & notifications</h2>
 
-                            <p class="carousel-content">Get a notification when a new vehicle matching your criteria
+                            <p class="carousel-content" data-locale="slide.alerts.content">Get a notification when a new
+                                vehicle matching your criteria
                                 arrives on the internet - regardless of where you are!</p>
                         </div>
                         <img class="carousel-bg-pic" src="img/real-time-alerts_edited.png" alt="easy controlling">
@@ -198,9 +213,10 @@
                     </div>
                     <div class="col-md-6 col-sm-12">
                         <div class="carousel-block">
-                            <h2 class="carousel-title">Mobile & tablet</h2>
+                            <h2 class="carousel-title" data-locale="slide.mobile.title">Mobile & tablet</h2>
 
-                            <p class="carousel-content">We offer mobile and tablet support with platform specifically
+                            <p class="carousel-content" data-locale="slide.mobile.content">We offer mobile and tablet
+                                support with platform specifically
                                 designed to make the experience easy and all actions intuitive even on a smaller
                                 screen.</p>
                         </div>
@@ -215,9 +231,10 @@
                     </div>
                     <div class="col-md-6 col-sm-12">
                         <div class="carousel-block">
-                            <h2 class="carousel-title">Customizable portal</h2>
+                            <h2 class="carousel-title" data-locale="slide.portal.title">Customizable portal</h2>
 
-                            <p class="carousel-content">Platform provides good looking and intuitive design with an
+                            <p class="carousel-content" data-locale="slide.portal.content">Platform provides good
+                                looking and intuitive design with an
                                 ability to customize all modules separately, based on the importance you give
                                 them.</p>
                         </div>
@@ -225,8 +242,6 @@
                     </div>
                 </div>
             </div>
-
-
 
 
             <div class="item">
@@ -237,9 +252,10 @@
                     </div>
                     <div class="col-md-6 col-sm-12">
                         <div class="carousel-block">
-                            <h2 class="carousel-title">Everything in one place</h2>
+                            <h2 class="carousel-title" data-locale="slide.one.title">Everything in one place</h2>
 
-                            <p class="carousel-content">See all your wanted adverts in one place, where you can add them
+                            <p class="carousel-content" data-locale="slide.one.content">See all your wanted adverts in
+                                one place, where you can add them
                                 to your favourites, remove them from your list, add a comment and much more...!</p>
                         </div>
                         <img class="carousel-bg-pic" src="img/all-here_edited.png" alt="easy controlling">
@@ -266,7 +282,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Services & Features</h2>
+                <h2 class="section-heading" data-locale="services.title">Services & Features</h2>
                 <hr class="white">
             </div>
         </div>
@@ -277,18 +293,20 @@
                 <div class="service-box">
                     <i class="fa fa-4x fa-car wow bounceIn text-primary"></i>
 
-                    <h3>Advanced car tracking</h3>
+                    <h3 data-locale="services.tracking.title">Advanced car tracking</h3>
 
-                    <p class="text-muted">With more than 10 supported web car-markets from all over the world</p>
+                    <p class="text-muted" data-locale="services.tracking.content">With more than 10 supported web
+                        car-markets from all over the world</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 text-center">
                 <div class="service-box">
                     <i class="fa fa-4x fa-balance-scale wow bounceIn text-primary"></i>
 
-                    <h3>Informative buyer</h3>
+                    <h3 data-locale="services.info.title">Informative buyer</h3>
 
-                    <p class="text-muted">Using built-in mechanisms, you can gather all relevant data before buying a
+                    <p class="text-muted" data-locale="services.info.content">Using built-in mechanisms, you can gather
+                        all relevant data before buying a
                         used vehicle</p>
                 </div>
             </div>
@@ -305,9 +323,10 @@
                 <div class="service-box">
                     <i class="fa fa-4x fa-bell-o wow bounceIn text-primary" data-wow-delay=".2s"></i>
 
-                    <h3>Up to Date</h3>
+                    <h3 data-locale="services.up.title">Up to Date</h3>
 
-                    <p class="text-muted">Customizable notification as soon as new advert matching your criteria
+                    <p class="text-muted" data-locale="services.up.content">Customizable notification as soon as new
+                        advert matching your criteria
                         arrives</p>
                 </div>
             </div>
@@ -332,9 +351,10 @@
                 <div class="service-box">
                     <i class="fa fa-4x fa-android wow bounceIn text-primary" data-wow-delay=".2s"></i>
 
-                    <h3>Mobile App</h3>
+                    <h3 data-locale="services.mobile.title">Mobile App</h3>
 
-                    <p class="text-muted">Apart from our web-app we also provide a cool looking and elegant mobile
+                    <p class="text-muted" data-locale="services.mobile.content">Apart from our web-app we also provide a
+                        cool looking and elegant mobile
                         support</p>
                 </div>
             </div>
@@ -342,9 +362,10 @@
                 <div class="service-box">
                     <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i>
 
-                    <h3>Constantly improving</h3>
+                    <h3 data-locale="services.heart.title">Constantly improving</h3>
 
-                    <p class="text-muted">We are striving for perfection by constantly improving and adding new
+                    <p class="text-muted" data-locale="services.heart.content">We are striving for perfection by
+                        constantly improving and adding new
                         services</p>
                 </div>
             </div>
@@ -366,7 +387,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Our Team</h2>
+                <h2 class="section-heading" data-locale="team.title">Our Team</h2>
                 <hr>
             </div>
         </div>
@@ -376,7 +397,7 @@
                     <img src="img/gasper_225.png" class="img-responsive img-circle" alt="">
                     <h4>Gašper Andrejc</h4>
 
-                    <p class="text-muted">Founder, Lead Developer</p>
+                    <p class="text-muted" data-locale="team.andrejc">Founder, Lead Developer</p>
                     <ul class="list-inline social-buttons">
                         <li><a href="https://twitter.com/MrKespr"><i class="fa fa-twitter"></i></a>
                         </li>
@@ -392,7 +413,7 @@
                     <img src="img/kac_225.png" class="img-responsive img-circle" alt="">
                     <h4>Jernej Kac</h4>
 
-                    <p class="text-muted">Co-Founder, Marketing</p>
+                    <p class="text-muted" data-locale="team.kac">Co-Founder, Marketing</p>
                     <ul class="list-inline social-buttons">
                         <!--<li><a href="#"><i class="fa fa-twitter"></i></a>-->
                         <!--</li>-->
@@ -408,7 +429,7 @@
                     <img src="img/domen_225.png" class="img-responsive img-circle" alt="">
                     <h4>Domen Bider</h4>
 
-                    <p class="text-muted">Marketing communication</p>
+                    <p class="text-muted" data-locale="team.bider">Marketing communication</p>
                     <ul class="list-inline social-buttons">
                         <!--<li><a href="https://twitter.com/MrKespr"><i class="fa fa-twitter"></i></a>-->
                         <!--</li>-->
@@ -440,7 +461,7 @@
                     <img src="img/dusan_225.png" class="img-responsive img-circle" alt="">
                     <h4>Dušan Pogačar</h4>
 
-                    <p class="text-muted">Graphic design</p>
+                    <p class="text-muted" data-locale="team.pogacar">Graphic design</p>
                     <ul class="list-inline social-buttons">
                         <!--<li><a href="#"><i class="fa fa-twitter"></i></a>-->
                         <!--</li>-->
@@ -459,13 +480,15 @@
 <section id="contact" class="bg-primary">
     <div class="container subscribe">
         <div class="col-lg-8 col-lg-offset-2 text-center">
-            <h2 class="section-heading">Subscribe to a pre-release version . . .</h2>
+            <h2 class="section-heading" data-locale="subscribe.title">Subscribe to a pre-release version . . .</h2>
             <hr class="white">
-            <p>If you want, we can inform you as soon as a free demo version is available</p>
+            <p data-locale="subscribe.sub">If you want, we can inform you as soon as a free demo version is
+                available</p>
         </div>
         <div class="form-inline" style="text-align: center;">
             <form class="form-group" method="post" id="subscriber-form">
-                <input type="email" class="form-control" id="mail-input" placeholder="Email address" name="email">
+                <input type="email" class="form-control" id="mail-input" placeholder="Email address"
+                       data-locale="subscribe.placeholder" name="email">
                 <a href="#" id="subscribe-click"><i class="fa fa-share" style="color: white;"></i></a>
             </form>
         </div>
@@ -474,9 +497,11 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading">. . . or get in touch just for the sake of it!</h2>
+                <h2 class="section-heading" data-locale="touch.title">. . . or get in touch just for the sake of
+                    it!</h2>
                 <hr class="white">
-                <p>Ready to be a part of our story? That's great! Give us a call or send us an email and we will get
+                <p data-locale="touch.sub">Ready to be a part of our story? That's great! Give us a call or send us an
+                    email and we will get
                     back to you as soon as possible!</p>
             </div>
             <div class="col-lg-4 col-lg-offset-2 text-center">
@@ -545,7 +570,26 @@
 <script src="js/wow.min.js"></script>
 
 <!-- Custom Theme JavaScript -->
+<script src="js/i18n.js"></script>
 <script src="js/creative.js"></script>
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-59132900-3', 'auto');
+    ga('send', 'pageview');
+
+</script>
+
+<script src="js/ga-scrolling.js"></script>
+<script>
+    $(function() {
+        $.scrollDepth();
+    });
+</script>
 
 
 </body>
