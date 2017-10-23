@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Drivers-Hub</title>
+    <title>Adverts-Tracker</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
@@ -38,7 +38,7 @@
 
     <link rel="icon"
           type="image/png"
-          href="img/icon_128_v2.png">
+          href="img/icon-logo.png">
 
 
 </head>
@@ -57,7 +57,10 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="#page-top">DRIVERS-HUB</a>
+            <a class="navbar-brand page-scroll" href="#page-top" style="padding: 10px 15px;">
+                <img src="img/tracker_logo_white.png" alt="Adverts-Tracker" height="30">
+                <a href='https://play.google.com/store/apps/details?id=si.gandrejc.drivershub&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img height="50px" alt='na voljo v Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/sl_badge_web_generic.png'/></a>
+            </a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -70,17 +73,22 @@
                     <a class="page-scroll" href="#services" data-locale="n.services">STORITVE</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#team" data-locale="n.team">EKIPA</a>
+                    <a class="page-scroll" href="#access" data-locale="n.team">DOSTOP</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#contact" data-locale="n.contact">KONTAKT</a>
                 </li>
-                <li class="i18n-wrapper">
-                    <a href="#" id="locale-sl" class="flag-icon first flag-icon-si sl no-margin no-padding"
-                       data-locale="sl"></a>
-                    <a href="#" id="locale-en" class="flag-icon flag-icon-gb en en-GB en-US no-margin no-padding"
-                       data-locale="en"></a>
+                <li>
+                    <a class="btn btn-success" href="https://portal.adverts-tracker.com" data-locale="n.contact">
+                        Prijava
+                    </a>
                 </li>
+                <!--<li class="i18n-wrapper">-->
+                <!--<a href="#" id="locale-sl" class="flag-icon first flag-icon-si sl no-margin no-padding"-->
+                <!--data-locale="sl"></a>-->
+                <!--<a href="#" id="locale-en" class="flag-icon flag-icon-gb en en-GB en-US no-margin no-padding"-->
+                <!--data-locale="en"></a>-->
+                <!--</li>-->
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -90,20 +98,21 @@
 
 
 <header>
-    <div class="ribbon"><span data-locale="ribbon">KMALU</span></div>
+    <!--<div class="ribbon"><span data-locale="ribbon">App</span></div>-->
 
     <video autoplay="" loop="" id="bgvid" poster="img/poster_video.png"
            style="width: 100%; height: auto; margin-top: -50px;">
-        <!--<source src="img/landing_header_v2_qtp.mp4" type="video/mp4">-->
-        <source src="img/landing_header_v2_qtp.mp4" type="video/mp4">
+        <source src="img/landing-video.mp4" type="video/mp4">
     </video>
     <div class="header-content">
         <div class="header-content-inner">
-            <h1 data-locale="main.title">Najdi najboljše vozilo na trgu</h1>
+            <!--<h1 data-locale="main.title">Najdi najboljše na trgu</h1>-->
+            <h1 data-locale="main.title">Uresničitev želja še nikoli ni bila tako preprosta</h1>
             <hr class="white" id="top-hr">
             <!--<p>We make a dream of having it into a reality of owning it</p>-->
-            <p data-locale="main.subtitle">Nič več pomislekov pri nakupu rabljenega vozila</p>
-            <a href="#about" id="more" class="btn btn-primary btn-xl page-scroll" data-locale="main.button">VEČ</a>
+            <p data-locale="main.subtitle">Ponujamo platformo, ki vam pomaga poiskati najboljšo stvar na spletu</p>
+            <a href="#about" id="more" class="btn btn-primary rounded btn-xl page-scroll"
+               data-locale="main.button">VEČ</a>
         </div>
     </div>
 </header>
@@ -112,9 +121,13 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading" data-locale="sub.title">Zagotovljena transparentnost rabljenih vozil . . .</h2>
+                <h2 class="section-heading" data-locale="sub.title">Nikoli več ne boste zamudili primernega oglasa . .
+                    .</h2>
                 <hr class="white">
-                <p class="text-faded sub-description" data-locale="sub.sub">. . . ki jo dosežemo s pobiranjem <strong style='color: white;'>informacij o vozilu iz najrazličnejših virov</strong> ter jih prikažemo skupaj in olajšamo odločitev o nakupu. Prav tako poenostavljamo iskanje tako, da nudimo <strong style='color: white;'>sledenje oglasom</strong> in uporabnika obvestimo takoj, ko je objavljen nov oglas.</p>
+                <p class="text-faded sub-description" data-locale="sub.sub">. . . saj boste o njem obveščeni <strong
+                        style='color: white;'>takoj, ko pride na splet.</strong> Prav tako poenostavljamo iskanje tako,
+                    da nudimo <strong style='color: white;'>združevanje spletnih portalov na eno mesto</strong> in
+                    uporabniku omogočamo enotno mesto za vse oglase.</p>
                 <!--<a href="#" class="btn btn-default btn-xl">Get Started!</a>-->
             </div>
         </div>
@@ -124,7 +137,7 @@
 </section>
 
 <section class="no-padding" id="portfolio">
-    <div id="carousel-features" class="carousel slide" data-ride="carousel">
+    <div id="carousel-features" class="carousel slide" data-ride="carousel" data-interval="50000" data-pause="hover">
         <!-- Indicators -->
         <ol class="carousel-indicators">
             <li data-target="#carousel-features" data-slide-to="0" class="active"></li>
@@ -145,9 +158,13 @@
                     </div>
                     <div class="col-md-6 col-sm-12">
                         <div class="carousel-block">
-                            <h2 class="carousel-title" data-locale="slide.users.title">Sodelovanje vseh uporabnikov pri vašem nakupu</h2>
+                            <h2 class="carousel-title" data-locale="slide.users.title">Sodelovanje vseh uporabnikov pri
+                                vašem nakupu</h2>
 
-                            <p class="carousel-content" data-locale="slide.users.content">Če se je o oglasu kjerkoli na internetu govorilo, vam mi to agregiramo na eno mesto in prikažemo vse relevantne podatke. Poleg tega omogočamo integriran modul za dodajanje komentarjev, kjer lahko najdete izkušnje in mnenja ostalih kupcev, ki so si vozilo že ogledali.</p>
+                            <p class="carousel-content" data-locale="slide.users.content">Če se je o oglasu kjerkoli na
+                                internetu govorilo, vam mi to agregiramo na eno mesto in prikažemo vse relevantne
+                                podatke. Poleg tega omogočamo integriran modul za dodajanje komentarjev, kjer lahko
+                                najdete izkušnje in mnenja ostalih kupcev, ki so si vozilo že ogledali.</p>
                         </div>
                         <img class="carousel-bg-pic" src="img/everything_in_one_place_edited.png"
                              alt="easy controlling">
@@ -163,11 +180,36 @@
                     </div>
                     <div class="col-md-6 col-sm-12">
                         <div class="carousel-block">
-                            <h2 class="carousel-title" data-locale="slide.power.title">Moč informacij & transparentnost oglasov</h2>
+                            <h2 class="carousel-title" data-locale="slide.power.title">Moč informacij & transparentnost
+                                oglasov</h2>
 
-                            <p class="carousel-content" data-locale="slide.power.content">Z našo platformo boste naslednjo rabljeno vozilo kupili samozavestno, saj boste točno vedeli, kaj se je z vozilom dogajalo in kakšen sloves ima prodajalec</p>
+                            <p class="carousel-content" data-locale="slide.power.content">Z našo platformo boste
+                                naslednjo rabljeno vozilo kupili samozavestno, saj boste točno vedeli, kaj se je z
+                                vozilom dogajalo in kakšen sloves ima prodajalec.</p>
                         </div>
                         <img class="carousel-bg-pic" src="img/magnifying-glass_edited.png" alt="easy controlling">
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <img src="img/app_pics/single_view_basic_contrast.png" alt="easy controlling"
+                             style="max-width: 100%;">
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="carousel-block">
+                            <h2 class="carousel-title" data-locale="slide.one.title">Združevanje portalov na eno
+                                mesto</h2>
+
+                            <p class="carousel-content" data-locale="slide.one.content">Združujemo portale na eno mesto
+                                in tako omogočamo enoten pregled oglasov ne glede na to, kje na spletu se nahajajo. Tako
+                                združujemo
+                                portale kot so www.nepremicnine.net, www.bolha.com, www.oglasi.si, wwww.avto.net,
+                                ...</p>
+                        </div>
+                        <img class="carousel-bg-pic" src="img/all-here_edited.png" alt="easy controlling">
                     </div>
                 </div>
             </div>
@@ -182,7 +224,9 @@
                         <div class="carousel-block">
                             <h2 class="carousel-title" data-locale="slide.alerts.title">Obvestila in ažurnost</h2>
 
-                            <p class="carousel-content" data-locale="slide.alerts.content">Opozorilo dobite takoj, ko se pojavi nov oglas, ki ustreza željenim kriterijem in ste tako vedno na tekočem, brez nenehnega visenja na spletnih oglasih</p>
+                            <p class="carousel-content" data-locale="slide.alerts.content">Opozorilo dobite takoj, ko se
+                                pojavi nov oglas, ki ustreza želenim kriterijem in ste tako vedno na tekočem, brez
+                                nenehnega visenja na spletnih oglasih.</p>
                         </div>
                         <img class="carousel-bg-pic" src="img/real-time-alerts_edited.png" alt="easy controlling">
                     </div>
@@ -190,51 +234,25 @@
             </div>
 
             <div class="item">
-                <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <img src="img/app_pics/swiping.png" alt="easy controlling" style="max-width: 100%;">
+                <div class="row" style="height: 560px;">
+                    <div class="col-md-12 col-sm-12" style="text-align: center;">
+                        <img src="img/phones.png" alt="easy controlling" style="max-width: 100%">
                     </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="carousel-block">
-                            <h2 class="carousel-title" data-locale="slide.mobile.title">Mobilna podpora</h2>
+                    <div class="carousel-caption">
+                        <h3>Ponujamo mobilno aplikacijo
+                            za še hitrejši pregled nad novimi oglasi. Z intuitivnimi potezami enostavno oglas
+                            pripnete za kasnejši pregled, ali pa ga odstranite.</h3>
+                    </div>
+                    <!--<div class="col-md-6 col-sm-12">-->
+                        <!--<div class="carousel-block">-->
+                            <!--<h2 class="carousel-title" data-locale="slide.mobile.title">Mobilna podpora</h2>-->
 
-                            <p class="carousel-content" data-locale="slide.mobile.content">Aplikacija posebno dizajnirana, da je izkušnja na mobilnih telefonih in tablicah intuitivna in hitra.</p>
-                        </div>
-                        <img class="carousel-bg-pic" src="img/mobile-tablet_edited.png" alt="easy controlling">
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <img src="img/app_pics/mustang_double_1.png" alt="easy controlling" style="max-width: 100%;">
-                    </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="carousel-block">
-                            <h2 class="carousel-title" data-locale="slide.portal.title">Izgled aplikacije po meri</h2>
-
-                            <p class="carousel-content" data-locale="slide.portal.content">Portal je zgrajen iz različnih modulov in je tako prilagodljiv ter omogoča personalizirano zgradbo glede na lastne želje oziroma potrebe.</p>
-                        </div>
-                        <img class="carousel-bg-pic" src="img/modules_edited.png" alt="easy controlling">
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="item">
-                <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <img src="img/app_pics/single_view_basic_contrast.png" alt="easy controlling"
-                             style="max-width: 100%;">
-                    </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="carousel-block">
-                            <h2 class="carousel-title" data-locale="slide.one.title">Vse na enem mestu</h2>
-
-                            <p class="carousel-content" data-locale="slide.one.content">Vsi željeni oglasi so na enem mestu, kjer jih lahko dodate med priljubljene, zbrišete z vašega seznama, dodajate lastne komentarje, . . .</p>
-                        </div>
-                        <img class="carousel-bg-pic" src="img/all-here_edited.png" alt="easy controlling">
-                    </div>
+                            <!--<p class="carousel-content" data-locale="slide.mobile.content">Ponujamo mobilno aplikacijo-->
+                                <!--za še hitrejši pregled nad novimi oglasi. Z intuitivnimi potezami enostavno oglas-->
+                                <!--pripnete za kasnejši pregled, ali pa ga odstranite.</p>-->
+                        <!--</div>-->
+                        <!--<img class="carousel-bg-pic" src="img/mobile-tablet_edited.png" alt="easy controlling">-->
+                    <!--</div>-->
                 </div>
             </div>
 
@@ -266,11 +284,12 @@
         <div class="row">
             <div class="col-lg-4 col-md-4 text-center">
                 <div class="service-box">
-                    <i class="fa fa-4x fa-car wow bounceIn text-primary"></i>
+                    <i class="fa fa-4x fa-home wow bounceIn text-primary"></i>
 
                     <h3 data-locale="services.tracking.title">Napredno sledenje oglasom</h3>
 
-                    <p class="text-muted" data-locale="services.tracking.content">Za več kot 10 svetovnih trgov rabljenih vozil </p>
+                    <p class="text-muted" data-locale="services.tracking.content">Za več kot 10 spletnih trgov rabljenih
+                        stvari (nepremičnine, vozila, plovila, ..)</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 text-center">
@@ -279,7 +298,8 @@
 
                     <h3 data-locale="services.info.title">Informiran kupec</h3>
 
-                    <p class="text-muted" data-locale="services.info.content">Z integriranimi funkcionalnostmi ponujamo vse informacije o vozilu</p>
+                    <p class="text-muted" data-locale="services.info.content">Z integriranimi funkcionalnostmi ponujamo
+                        več informacije o nakupu</p>
                 </div>
             </div>
             <!--<div class="col-lg-3 col-md-6 text-center">-->
@@ -297,7 +317,8 @@
 
                     <h3 data-locale="services.up.title">Takojšnja obvestila</h3>
 
-                    <p class="text-muted" data-locale="services.up.content">Opozorilo, ko se pojavi nov oglas, ki ustreza željenim kriterijem</p>
+                    <p class="text-muted" data-locale="services.up.content">Opozorilo takoj, ko se pojavi nov oglas, ki
+                        ustreza željenim kriterijem</p>
                 </div>
             </div>
 
@@ -323,7 +344,8 @@
 
                     <h3 data-locale="services.mobile.title">Mobilna aplikacija</h3>
 
-                    <p class="text-muted" data-locale="services.mobile.content">Poleg spletne nudimo tudi moderno in intuitivno mobilno aplikacijo</p>
+                    <p class="text-muted" data-locale="services.mobile.content">Poleg spletne nudimo tudi moderno in
+                        intuitivno mobilno aplikacijo</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 text-center">
@@ -332,7 +354,8 @@
 
                     <h3 data-locale="services.heart.title">Nenehno izboljševanje</h3>
 
-                    <p class="text-muted" data-locale="services.heart.content">Neprestanoma dodajamo nove storitve in podpiramo nove vire informacij</p>
+                    <p class="text-muted" data-locale="services.heart.content">Neprestanoma dodajamo nove storitve in
+                        podpiramo nove vire informacij</p>
                 </div>
             </div>
         </div>
@@ -349,93 +372,126 @@
 </section>
 
 
-<section id="team">
+<section id="access">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading" data-locale="team.title">Ekipa, ki verjame</h2>
+                <h2 class="section-heading" data-locale="team.title">Različni licenčni modeli</h2>
                 <hr>
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-3">
-                <div class="team-member">
-                    <img src="img/gasper_225.png" class="img-responsive img-circle" alt="">
-                    <h4>Gašper Andrejc</h4>
-
-                    <p class="text-muted" data-locale="team.andrejc">Idejni vodja, razvijalec</p>
-                    <ul class="list-inline social-buttons">
-                        <li><a href="https://twitter.com/MrKespr"><i class="fa fa-twitter"></i></a>
+            <div class="col-sm-4">
+                <div class="panel price panel-green">
+                    <div class="panel-heading arrow_box text-center">
+                        <h3>Osnovna</h3>
+                    </div>
+                    <div class="panel-body text-center">
+                        <p class="lead" style="font-size:35px"><strong>0 € / mesec</strong>
+                        </p>
+                    </div>
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item"><i
+                                class="icon-ok text-success"></i> 2 aktivni sledenji
                         </li>
-                        <li><a href="https://www.facebook.com/gasper.andrejc"><i class="fa fa-facebook"></i></a>
+                        <li class="list-group-item"><i
+                                class="icon-ok text-success"></i> Obveščanje na 6 ur
                         </li>
-                        <li><a href="https://si.linkedin.com/in/andrejcgasper"><i class="fa fa-linkedin"></i></a>
+                        <li class="list-group-item"><i
+                                class="icon-ok text-success"></i> 1 ročna zahteva po takojšen pregledu novih oglasov
+                        </li>
+                        <li class="list-group-item"><i
+                                class="icon-ok text-success"></i> Osnovna podpora uporabnikom
+                        </li>
+                        <li class="list-group-item"><i
+                                class="icon-ok text-success"></i> Dostop do spletne & mobilne aplikacije
                         </li>
                     </ul>
+                    <div class="panel-footer">
+                        <a class="btn btn-lg btn-block btn-success" href="https://portal.adverts-tracker.com"
+                           target="_blank">Registracija</a>
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-3">
-                <div class="team-member">
-                    <img src="img/kac_225.png" class="img-responsive img-circle" alt="">
-                    <h4>Jernej Kac</h4>
-
-                    <p class="text-muted" data-locale="team.kac">Soustanovitelj, marketing</p>
-                    <ul class="list-inline social-buttons">
-                        <!--<li><a href="#"><i class="fa fa-twitter"></i></a>-->
-                        <!--</li>-->
-                        <li><a href="https://www.facebook.com/jernej.kac.1?fref=ts"><i class="fa fa-facebook"></i></a>
+            <div class="col-sm-4">
+                <div class="panel price panel-blue">
+                    <div class="panel-heading  text-center">
+                        <h3>Napredna</h3>
+                    </div>
+                    <div class="panel-body text-center">
+                        <p class="lead" style="font-size:35px; margin-bottom: 0"><strong>10 € / mesec</strong>
+                        </p>
+                        oz. sorazmerni delež glede na čas uporabe
+                    </div>
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item"><i
+                                class="icon-ok text-success"></i> 5 aktivnih sledenj
                         </li>
-                        <li><a href="https://si.linkedin.com/in/jernejkac"><i class="fa fa-linkedin"></i></a>
+                        <li class="list-group-item"><i
+                                class="icon-ok text-success"></i> Obveščanje vsako uro
+                        </li>
+                        <li class="list-group-item"><i
+                                class="icon-ok text-success"></i> 5 ročnih zahtev po takojšen pregledu novih oglasov
+                        </li>
+                        <li class="list-group-item"><i
+                                class="icon-ok text-success"></i> Sledenje ceni oglasa (in obveščanje o potencialni
+                            spremembi cene)
+                        </li>
+                        <li class="list-group-item"><i
+                                class="icon-ok text-success"></i> Osnovna podpora uporabnikom
+                        </li>
+                        <li class="list-group-item"><i
+                                class="icon-ok text-success"></i> Dostop do spletne & mobilne aplikacije
                         </li>
                     </ul>
+                    <div class="panel-footer">
+                        <a class="btn btn-lg btn-block btn-primary"
+                           href="mailto:info@adverts-tracker.com?subject=Želim dostop z napredno licenco"
+                           target="_blank">Želim dostop</a>
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-3">
-                <div class="team-member">
-                    <img src="img/domen_225.png" class="img-responsive img-circle" alt="">
-                    <h4>Domen Bider</h4>
-
-                    <p class="text-muted" data-locale="team.bider">Marketing, finance</p>
-                    <ul class="list-inline social-buttons">
-                        <!--<li><a href="https://twitter.com/MrKespr"><i class="fa fa-twitter"></i></a>-->
-                        <!--</li>-->
-                        <li><a href="https://www.facebook.com/domen.bider.5?fref=ts"><i class="fa fa-facebook"></i></a>
+            <div class="col-sm-4">
+                <div class="panel price panel-red">
+                    <div class="panel-heading  text-center">
+                        <h3>Poslovna</h3>
+                    </div>
+                    <div class="panel-body text-center">
+                        <p class="lead" style="font-size:35px"><a
+                                href="mailto:info@adverts-tracker.com?subject=Poizvedba poslovne licene"
+                                style="color: white">Oddaj poizvedbo</a>
+                        </p>
+                    </div>
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item"><i
+                                class="icon-ok text-danger"></i> Neomejeno aktivnih sledenj
                         </li>
-                        <li><a href="https://si.linkedin.com/in/domen-bider-0b39aaa5"><i class="fa fa-linkedin"></i></a>
+                        <li class="list-group-item"><i
+                                class="icon-ok text-danger"></i> Obveščanje takoj, ko pride nov oglas
                         </li>
-                    </ul>
-                </div>
-            </div>
-            <!--<div class="col-sm-2">-->
-            <!--<div class="team-member">-->
-            <!--<img src="img/kac.png" class="img-responsive img-circle" alt="">-->
-            <!--<h4>David Bašelj</h4>-->
-
-            <!--<p class="text-muted" style="line-height: 3">Developer</p>-->
-            <!--<ul class="list-inline social-buttons">-->
-            <!--&lt;!&ndash;<li><a href="#"><i class="fa fa-twitter"></i></a>&ndash;&gt;-->
-            <!--&lt;!&ndash;</li>&ndash;&gt;-->
-            <!--<li><a href="https://www.facebook.com/jernej.kac.1?fref=ts"><i class="fa fa-facebook"></i></a>-->
-            <!--</li>-->
-            <!--<li><a href="https://si.linkedin.com/in/jernejkac"><i class="fa fa-linkedin"></i></a>-->
-            <!--</li>-->
-            <!--</ul>-->
-            <!--</div>-->
-            <!--</div>-->
-            <div class="col-sm-3">
-                <div class="team-member">
-                    <img src="img/dusan_225.png" class="img-responsive img-circle" alt="">
-                    <h4>Dušan Pogačar</h4>
-
-                    <p class="text-muted" data-locale="team.pogacar">Grafični oblikovalec</p>
-                    <ul class="list-inline social-buttons">
-                        <!--<li><a href="#"><i class="fa fa-twitter"></i></a>-->
-                        <!--</li>-->
-                        <li><a href="https://www.facebook.com/dusan.pogacar?fref=ts"><i class="fa fa-facebook"></i></a>
+                        <li class="list-group-item"><i
+                                class="icon-ok text-danger"></i> Neomejeno ročnih zahtev po takojšnjem pregledu novih
+                            oglasov
                         </li>
-                        <li><a href="https://si.linkedin.com/in/dusanpogacar"><i class="fa fa-linkedin"></i></a>
+                        <li class="list-group-item"><i
+                                class="icon-ok text-danger"></i> Sledenje ceni oglasa
+                        </li>
+                        <li class="list-group-item"><i
+                                class="icon-ok text-danger"></i> Algoritem za iskanje istih oglasov (iskanje
+                            ponavljajočih se oglasov)
+                        </li>
+                        <li class="list-group-item"><i
+                                class="icon-ok text-danger"></i> Podpora uporabnikom 24/7
+                        </li>
+                        <li class="list-group-item"><i
+                                class="icon-ok text-success"></i> Dostop do spletne & mobilne aplikacije
                         </li>
                     </ul>
+                    <div class="panel-footer">
+                        <a class="btn btn-lg btn-block btn-danger"
+                           href="mailto:info@adverts-tracker.com?subject=Želim dostop z napredno licenco"
+                           target="_blank">Želim dostop</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -446,17 +502,25 @@
 <section id="contact" class="bg-primary">
     <div class="container subscribe">
         <div class="col-lg-8 col-lg-offset-2 text-center">
-            <h2 class="section-heading" data-locale="subscribe.title">Naroči se na zgodnjo izdajo . . .</h2>
+            <h2 class="section-heading" data-locale="subscribe.title">Pošljite povpraševanje . . .</h2>
             <hr class="white">
-            <p data-locale="subscribe.sub">Če želite, vas lahko obvestimo takoj, ko bo demo aplikacija na voljo</p>
+            <p data-locale="subscribe.sub">Odgovorili vam karseda hitro, ponavadi v roku 6 ur.</p>
         </div>
-        <div class="form-inline" style="text-align: center;">
-            <form class="form-group" method="post" id="subscriber-form">
+        <form class="form-group" method="post" id="subscriber-form">
+            <div class="form-inline" style="text-align: center;">
                 <input type="email" class="form-control" id="mail-input" placeholder="Email naslov"
                        data-locale="subscribe.placeholder" name="email">
-                <a href="#" id="subscribe-click"><i class="fa fa-share" style="color: white;"></i></a>
-            </form>
-        </div>
+            </div>
+            <div class="form-inline" style="text-align: center;">
+                <textarea class="form-control" style="margin-top: 10px; margin-bottom: 10px;" id="text-input" rows="5" cols="50" placeholder="Sporočilo"
+                          data-locale="subscribe.placeholder" name="email"></textarea>
+            </div>
+            <div class="form-inline" style="text-align: center;">
+                <div class="btn" title="Pošlji">
+                    <i class="fa fa-send fa-2x"></i>
+                </div>
+            </div>
+        </form>
 
     </div>
     <div class="container">
@@ -464,7 +528,8 @@
             <div class="col-lg-8 col-lg-offset-2 text-center">
                 <h2 class="section-heading" data-locale="touch.title">. . . ali pa nas kontaktirajte kar tako.</h2>
                 <hr class="white">
-                <p data-locale="touch.sub">Želite biti del naše zgodbe? Super, pokličite nas ali nam pošljite email in odgovorili bomo takoj, ko bo mogoče!</p>
+                <p data-locale="touch.sub">Želite biti del naše zgodbe? Super, pokličite nas ali nam pošljite email in
+                    odgovorili bomo takoj, ko bo mogoče!</p>
             </div>
             <div class="col-lg-4 col-lg-offset-2 text-center">
                 <i class="fa fa-phone fa-3x wow bounceIn"></i>
@@ -474,14 +539,14 @@
             <div class="col-lg-4 text-center">
                 <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
 
-                <p><a href="mailto:info@drivers-hub.com" style="color: white;">info@drivers-hub.com</a></p>
+                <p><a href="mailto:info@adverts-tracker.com" style="color: white;">info@adverts-tracker.com</a></p>
             </div>
         </div>
     </div>
 </section>
 <footer>
     <div class="container">
-        <span style="float: left">Copyright © Drivers-Hub 2016</span>
+        <span style="float: left">Copyright © Adverts-Tracler 2017</span>
         <span style="float: right;"><a href="https://www.youtube.com/watch?v=PhSanuvCrOA" style="text-decoration: none">Header
             movie belongs to BBC UK, Top Gear</a></span>
     </div>
@@ -504,10 +569,17 @@
 <script src="js/creative.js"></script>
 
 <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
     ga('create', 'UA-59132900-3', 'auto');
     ga('send', 'pageview');
@@ -516,7 +588,7 @@
 
 <script src="js/ga-scrolling.js"></script>
 <script>
-    $(function() {
+    $(function () {
         $.scrollDepth();
     });
 </script>
