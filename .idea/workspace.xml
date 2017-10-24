@@ -65,12 +65,12 @@
       <file leaf-file-name="creative.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/creative.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="55" column="46" lean-forward="false" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
+            <state relative-caret-position="198">
+              <caret line="53" column="33" lean-forward="false" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#970#1046#0" expanded="false" />
-                <marker date="1508886073710" expanded="true" signature="1868:1902" ph="..." />
+                <marker date="1508886251492" expanded="true" signature="1875:1909" ph="..." />
               </folding>
             </state>
           </provider>
@@ -314,7 +314,7 @@
       <workItem from="1508682401060" duration="1948000" />
       <workItem from="1508785263369" duration="13819000" />
       <workItem from="1508874540266" duration="6127000" />
-      <workItem from="1508884334193" duration="885000" />
+      <workItem from="1508884334193" duration="1063000" />
     </task>
     <task id="LOCAL-00001" summary="webapp static init">
       <created>1457547922457</created>
@@ -505,11 +505,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508884609959</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="- different endpoint for subscriptions">
+      <created>1508886084086</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1508886084086</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22779000" />
+    <option name="totallyTimeSpent" value="22957000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -593,7 +600,8 @@
     <MESSAGE value="Merge branches 'adverts-tracker-landing' and 'gh-pages' of https://github.com/gasperr/ads-tracker-landing into gh-pages&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;css/creative.css&#10;#&#9;img/landing-video.mp4&#10;#&#9;index.html&#10;#&#9;js/creative.js&#10;#&#9;js/jquery.form.js&#10;#&#9;js/jquery.js&#10;#&#9;static-webapp/slider/ninja-slider.css&#10;#&#9;static-webapp/slider/ninja-slider.js&#10;#&#9;static-webapp/slider/thumbnail-slider.css&#10;#&#9;static-webapp/slider/thumbnail-slider.js" />
     <MESSAGE value="- ghpages" />
     <MESSAGE value="- ghpages cname" />
-    <option name="LAST_COMMIT_MESSAGE" value="- ghpages cname" />
+    <MESSAGE value="- different endpoint for subscriptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="- different endpoint for subscriptions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -671,7 +679,7 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#970#1046#0" expanded="false" />
-            <marker date="1508886073710" expanded="true" signature="1868:1902" ph="..." />
+            <marker date="1508886251492" expanded="true" signature="1875:1909" ph="..." />
           </folding>
         </state>
       </provider>
@@ -720,7 +728,7 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#970#1046#0" expanded="false" />
-            <marker date="1508886073710" expanded="true" signature="1868:1902" ph="..." />
+            <marker date="1508886251492" expanded="true" signature="1875:1909" ph="..." />
           </folding>
         </state>
       </provider>
@@ -769,7 +777,7 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#970#1046#0" expanded="false" />
-            <marker date="1508886073710" expanded="true" signature="1868:1902" ph="..." />
+            <marker date="1508886251492" expanded="true" signature="1875:1909" ph="..." />
           </folding>
         </state>
       </provider>
@@ -912,12 +920,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/creative.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="55" column="46" lean-forward="false" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
+        <state relative-caret-position="198">
+          <caret line="53" column="33" lean-forward="false" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#970#1046#0" expanded="false" />
-            <marker date="1508886073710" expanded="true" signature="1868:1902" ph="..." />
+            <marker date="1508886251492" expanded="true" signature="1875:1909" ph="..." />
           </folding>
         </state>
       </provider>
