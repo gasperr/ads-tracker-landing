@@ -51,8 +51,8 @@
             if (body) {
                 $("#text-input").removeClass("error");
                 $('#subscriber-form').ajaxForm({
-                    // url: '163.172.178.251:8080/middleware/inquiry',
-                    url: 'http://localhost:8081/middleware/inquiry',
+                    url: '163.172.178.251:8080/middleware/inquiry',
+                    // url: 'http://localhost:8081/middleware/inquiry',
                     headers: {"Authorization" : "pLsD0ntSp4mM3"},
                     success: function (succ) {
                         $("#subscribe-click").html("<i class='fa fa-check' style='font-size: 25px; color: chartreuse'></i>");
