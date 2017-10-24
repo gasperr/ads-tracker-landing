@@ -45,32 +45,54 @@
     $("#subscribe-click").click(function (e) {
         e.preventDefault();
         var mail = $("#mail-input").val();
+        var body = $("#text-input").val();
         if (mail) {
-            $('#subscriber-form').ajaxForm({
-                url: '/subscribe', // or whatever
-                success: function(succ){
-                    $("#subscribe-click").html("<i class='fa fa-check' style='font-size: 25px; color: chartreuse'></i>");
-                    $("#mail-input").removeClass("error");
-                },
-                error: function(err){
-                    console.log(err);
-                },
-                resetForm:true
-            }).submit();
-        } else{
+            $("#mail-input").removeClass("error");
+            if (body) {
+                $("#text-input").removeClass("error");
+                $('#subscriber-form').ajaxForm({
+                    // url: '163.172.178.251:8080/middleware/inquiry',
+                    url: 'http://localhost:8081/middleware/inquiry',
+                    headers: {"Authorization" : "pLsD0ntSp4mM3"},
+                    success: function (succ) {
+                        $("#subscribe-click").html("<i class='fa fa-check' style='font-size: 25px; color: chartreuse'></i>");
+                        $("#mail-input").removeClass("error");
+                    },
+                    error: function (err) {
+                        console.log(err);
+                    },
+                    resetForm: true
+                }).submit();
+            } else {
+                $("#text-input").removeClass("error").addClass("error");
+            }
+
+        } else {
             $("#mail-input").removeClass("error").addClass("error");
         }
 
     });
 
+    $("#want-business-license").click(function (e) {
+        e.preventDefault();
+        $("#text-input").val("Želim dostop s poslovno licenco.");
+        $("#click-for-contact").trigger("click");
+    });
 
-    $("#locale-sl").click(function(e){
+    $("#want-advanced-license").click(function (e) {
+        e.preventDefault();
+        $("#text-input").val("Želim dostop z napredno licenco.");
+        $("#click-for-contact").trigger("click");
+    });
+
+
+    $("#locale-sl").click(function (e) {
         e.preventDefault();
         $(this).removeClass("selected").addClass("selected");
         $("#locale-en").removeClass("selected");
         T.doTranslate("sl");
     });
-    $("#locale-en").click(function(e){
+    $("#locale-en").click(function (e) {
         e.preventDefault();
         $(this).removeClass("selected").addClass("selected");
         $("#locale-sl").removeClass("selected");

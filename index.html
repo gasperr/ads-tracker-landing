@@ -58,8 +58,11 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand page-scroll" href="#page-top" style="padding: 10px 15px;">
-                <img src="img/tracker_logo_white.png" alt="Adverts-Tracker" height="30">
-                <a href='https://play.google.com/store/apps/details?id=si.gandrejc.drivershub&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img height="50px" alt='na voljo v Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/sl_badge_web_generic.png'/></a>
+                <img src="img/tracker_logo_white.png" alt="Adverts-Tracker" id="logo-white" height="30">
+                <img src="img/tracker_logo.png" alt="Adverts-Tracker" id="logo" height="30">
+                <a href='https://play.google.com/store/apps/details?id=si.gandrejc.drivershub&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img
+                        height="50px" alt='na voljo v Google Play'
+                        src='https://play.google.com/intl/en_us/badges/images/generic/sl_badge_web_generic.png'/></a>
             </a>
         </div>
 
@@ -76,10 +79,11 @@
                     <a class="page-scroll" href="#access" data-locale="n.team">DOSTOP</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#contact" data-locale="n.contact">KONTAKT</a>
+                    <a class="page-scroll" id="click-for-contact" href="#contact" data-locale="n.contact">KONTAKT</a>
                 </li>
                 <li>
-                    <a class="btn btn-success" href="https://portal.adverts-tracker.com" data-locale="n.contact">
+                    <a class="btn btn-success" href="https://portal.adverts-tracker.com" style="color: white"
+                       data-locale="n.contact">
                         Prijava
                     </a>
                 </li>
@@ -107,7 +111,7 @@
     <div class="header-content">
         <div class="header-content-inner">
             <!--<h1 data-locale="main.title">Najdi najboljše na trgu</h1>-->
-            <h1 data-locale="main.title">Uresničitev želja še nikoli ni bila tako preprosta</h1>
+            <h1 data-locale="main.title">Da ne zamudite popolnega nakupa</h1>
             <hr class="white" id="top-hr">
             <!--<p>We make a dream of having it into a reality of owning it</p>-->
             <p data-locale="main.subtitle">Ponujamo platformo, ki vam pomaga poiskati najboljšo stvar na spletu</p>
@@ -144,8 +148,6 @@
             <li data-target="#carousel-features" data-slide-to="1"></li>
             <li data-target="#carousel-features" data-slide-to="2"></li>
             <li data-target="#carousel-features" data-slide-to="3"></li>
-            <li data-target="#carousel-features" data-slide-to="4"></li>
-            <li data-target="#carousel-features" data-slide-to="5"></li>
         </ol>
 
         <!-- Wrapper for slides -->
@@ -153,98 +155,58 @@
             <div class="item active">
                 <div class="row">
                     <div class="col-md-6 col-sm-12">
-                        <img src="img/app_pics/polo_double_2_educated.png" alt="easy controlling"
-                             style="max-width: 100%;">
+                        <img src="img/comments.png" alt="easy controlling"
+                             style="max-width: 100%; float: right">
                     </div>
-                    <div class="col-md-6 col-sm-12">
+                    <div class="col-md-5 col-sm-12 full-height">
                         <div class="carousel-block">
-                            <h2 class="carousel-title" data-locale="slide.users.title">Sodelovanje vseh uporabnikov pri
-                                vašem nakupu</h2>
-
-                            <p class="carousel-content" data-locale="slide.users.content">Če se je o oglasu kjerkoli na
-                                internetu govorilo, vam mi to agregiramo na eno mesto in prikažemo vse relevantne
-                                podatke. Poleg tega omogočamo integriran modul za dodajanje komentarjev, kjer lahko
-                                najdete izkušnje in mnenja ostalih kupcev, ki so si vozilo že ogledali.</p>
+                            <p class="carousel-content text-shadow" data-locale="slide.mobile.content">
+                                Sodelovanje vseh uporabnikov pri vašem nakupu.</p>
                         </div>
-                        <img class="carousel-bg-pic" src="img/everything_in_one_place_edited.png"
-                             alt="easy controlling">
                     </div>
                 </div>
             </div>
 
             <div class="item">
                 <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <img src="img/app_pics/polo_double_1.png" alt="easy controlling"
-                             style="max-width: 100%;">
-                    </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="carousel-block">
-                            <h2 class="carousel-title" data-locale="slide.power.title">Moč informacij & transparentnost
-                                oglasov</h2>
-
-                            <p class="carousel-content" data-locale="slide.power.content">Z našo platformo boste
-                                naslednjo rabljeno vozilo kupili samozavestno, saj boste točno vedeli, kaj se je z
-                                vozilom dogajalo in kakšen sloves ima prodajalec.</p>
-                        </div>
-                        <img class="carousel-bg-pic" src="img/magnifying-glass_edited.png" alt="easy controlling">
-                    </div>
-                </div>
-            </div>
-
-            <div class="item">
-                <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <img src="img/app_pics/single_view_basic_contrast.png" alt="easy controlling"
-                             style="max-width: 100%;">
-                    </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="carousel-block">
-                            <h2 class="carousel-title" data-locale="slide.one.title">Združevanje portalov na eno
-                                mesto</h2>
-
-                            <p class="carousel-content" data-locale="slide.one.content">Združujemo portale na eno mesto
-                                in tako omogočamo enoten pregled oglasov ne glede na to, kje na spletu se nahajajo. Tako
-                                združujemo
-                                portale kot so www.nepremicnine.net, www.bolha.com, www.oglasi.si, wwww.avto.net,
-                                ...</p>
-                        </div>
-                        <img class="carousel-bg-pic" src="img/all-here_edited.png" alt="easy controlling">
-                    </div>
-                </div>
-            </div>
-
-            <div class="item">
-                <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <img src="img/app_pics/popup_reuters.png" alt="easy controlling"
-                             style="max-width: 100%;">
-                    </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="carousel-block">
-                            <h2 class="carousel-title" data-locale="slide.alerts.title">Obvestila in ažurnost</h2>
-
-                            <p class="carousel-content" data-locale="slide.alerts.content">Opozorilo dobite takoj, ko se
-                                pojavi nov oglas, ki ustreza želenim kriterijem in ste tako vedno na tekočem, brez
-                                nenehnega visenja na spletnih oglasih.</p>
-                        </div>
-                        <img class="carousel-bg-pic" src="img/real-time-alerts_edited.png" alt="easy controlling">
-                    </div>
-                </div>
-            </div>
-
-            <div class="item">
-                <div class="row" style="height: 560px;">
                     <div class="col-md-6 col-sm-12" style="text-align: center;">
-                        <img src="img/phones.png" alt="easy controlling" style="max-width: 100%">
+                        <img src="img/notifications.png" alt="easy controlling" style="max-width: 100%; float: right;">
                     </div>
-                    <div class="col-md-6 col-sm-12">
+                    <div class="col-md-5 col-sm-12 full-height">
                         <div class="carousel-block">
-                            <!--<h2 class="carousel-title" data-locale="slide.mobile.title">Mobilna podpora</h2>-->
+                            <p class="carousel-content text-shadow" data-locale="slide.mobile.content">
+                                Ponujamo obveščanje po več kanalih takoj, ko pride nov oglas. Ne dovolite, da ponovno
+                                zamudite prav tistega...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-                            <p class="carousel-content text-shadow" data-locale="slide.mobile.content">Ponujamo mobilno aplikacijo
-                                za še hitrejši pregled nad novimi oglasi. Z intuitivnimi potezami enostavno oglas
-                                pripnete za kasnejši pregled, ali pa ga odstranite.</p>
+            <div class="item">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <img src="img/from_forums.png" alt="easy controlling"
+                             style="max-width: 100%;">
+                    </div>
+                    <div class="col-md-5 col-sm-12 full-height">
+                        <div class="carousel-block">
+                            <p class="carousel-content text-shadow" data-locale="slide.mobile.content">
+                                Kupite samozavestno, saj vam združimo tudi vse informacija z ostalih virov.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <img src="img/multiple_portals.png" alt="easy controlling"
+                             style="max-width: 100%; float: right">
+                    </div>
+                    <div class="col-md-5 col-sm-12 full-height">
+                        <div class="carousel-block">
+                            <p class="carousel-content text-shadow" data-locale="slide.mobile.content">
+                                Vse na enem mestu. Omogočamo enotno sledenja na slovenskih in tujih portalih.</p>
                         </div>
                     </div>
                 </div>
@@ -439,9 +401,7 @@
                         </li>
                     </ul>
                     <div class="panel-footer">
-                        <a class="btn btn-lg btn-block btn-primary"
-                           href="mailto:info@adverts-tracker.com?subject=Želim dostop z napredno licenco"
-                           target="_blank">Želim dostop</a>
+                        <a class="btn btn-lg btn-block btn-primary" id="want-advanced-license">Želim dostop</a>
                     </div>
                 </div>
             </div>
@@ -482,9 +442,7 @@
                         </li>
                     </ul>
                     <div class="panel-footer">
-                        <a class="btn btn-lg btn-block btn-danger"
-                           href="mailto:info@adverts-tracker.com?subject=Želim dostop z napredno licenco"
-                           target="_blank">Želim dostop</a>
+                        <a class="btn btn-lg btn-block btn-danger" id="want-business-license">Želim dostop</a>
                     </div>
                 </div>
             </div>
@@ -502,15 +460,16 @@
         </div>
         <form class="form-group" method="post" id="subscriber-form">
             <div class="form-inline" style="text-align: center;">
-                <input type="email" class="form-control" id="mail-input" placeholder="Email naslov"
+                <input type="email" class="form-control" id="mail-input" placeholder="Vaš email naslov"
                        data-locale="subscribe.placeholder" name="email">
             </div>
             <div class="form-inline" style="text-align: center;">
-                <textarea class="form-control" style="margin-top: 10px; margin-bottom: 10px;" id="text-input" rows="5" cols="50" placeholder="Sporočilo"
-                          data-locale="subscribe.placeholder" name="email"></textarea>
+                <textarea class="form-control" style="margin-top: 10px; margin-bottom: 10px;" id="text-input" rows="5"
+                          cols="50" placeholder="Sporočilo"
+                          data-locale="subscribe.placeholder" name="body"></textarea>
             </div>
             <div class="form-inline" style="text-align: center;">
-                <div class="btn" title="Pošlji">
+                <div class="btn" title="Pošlji" id="subscribe-click">
                     <i class="fa fa-send fa-2x"></i>
                 </div>
             </div>
@@ -538,13 +497,6 @@
         </div>
     </div>
 </section>
-<footer>
-    <div class="container">
-        <span style="float: left">Copyright © Adverts-Tracler 2017</span>
-        <span style="float: right;"><a href="https://www.youtube.com/watch?v=PhSanuvCrOA" style="text-decoration: none">Header
-            movie belongs to BBC UK, Top Gear</a></span>
-    </div>
-</footer>
 
 <!-- jQuery -->
 <script src="js/jquery.js"></script>
