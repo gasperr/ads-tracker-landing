@@ -1,38 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="848311f5-947c-4f86-8966-7889543085aa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/comments.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/from_forums.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/multiple_portals.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/notifications.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/app_pics/mustang_double_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/app_pics/mustang_double_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/app_pics/mustang_double_1.xcf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/app_pics/polo_double_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/app_pics/polo_double_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/app_pics/polo_double_1.xcf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/app_pics/polo_double_2_educated.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/app_pics/polo_double_2_educated.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/app_pics/polo_double_2_educated.xcf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/app_pics/popup_reuters.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/app_pics/popup_reuters.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/app_pics/popup_reuters.xcf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/app_pics/single_view_basic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/app_pics/single_view_basic_contrast.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/app_pics/single_view_basic_contrast.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/app_pics/single_view_basic_contrast.xcf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/app_pics/swiping.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/app_pics/swiping.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/app_pics/swiping.xcf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/landing_header_v2_qtp.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/adverts_tracker_logo.png" afterPath="$PROJECT_DIR$/img/tracker_logo.png" />
+    <list default="true" id="848311f5-947c-4f86-8966-7889543085aa" name="Default" comment="Merge branches 'adverts-tracker-landing' and 'gh-pages' of https://github.com/gasperr/ads-tracker-landing into gh-pages&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;css/creative.css&#10;#&#9;img/landing-video.mp4&#10;#&#9;index.html&#10;#&#9;js/creative.js&#10;#&#9;js/jquery.form.js&#10;#&#9;js/jquery.js&#10;#&#9;static-webapp/slider/ninja-slider.css&#10;#&#9;static-webapp/slider/ninja-slider.js&#10;#&#9;static-webapp/slider/thumbnail-slider.css&#10;#&#9;static-webapp/slider/thumbnail-slider.js">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/creative.css" afterPath="$PROJECT_DIR$/css/creative.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/creative.js" afterPath="$PROJECT_DIR$/js/creative.js" />
     </list>
     <ignored path="ads-tracker-landing.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="590">
-              <caret line="403" column="85" lean-forward="false" selection-start-line="403" selection-start-column="72" selection-end-line="403" selection-end-column="93" />
+            <state relative-caret-position="658">
+              <caret line="407" column="34" lean-forward="true" selection-start-line="407" selection-start-column="34" selection-end-line="407" selection-end-column="34" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -81,15 +51,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="creative.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="creative.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/creative.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="674">
-              <caret line="93" column="7" lean-forward="true" selection-start-line="93" selection-start-column="7" selection-end-line="93" selection-end-column="7" />
+            <state relative-caret-position="266">
+              <caret line="69" column="16" lean-forward="false" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#970#1046#0" expanded="false" />
-                <marker date="1508880649010" expanded="true" signature="1868:1902" ph="..." />
+                <marker date="1508884295584" expanded="true" signature="1868:1902" ph="..." />
               </folding>
             </state>
           </provider>
@@ -129,7 +99,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="gh-pages" />
+        <entry key="$PROJECT_DIR$" value="adverts-tracker-landing" />
       </map>
     </option>
   </component>
@@ -205,7 +175,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -227,6 +196,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -342,6 +312,7 @@
       <workItem from="1508682401060" duration="1948000" />
       <workItem from="1508785263369" duration="13819000" />
       <workItem from="1508874540266" duration="6127000" />
+      <workItem from="1508884334193" duration="233000" />
     </task>
     <task id="LOCAL-00001" summary="webapp static init">
       <created>1457547922457</created>
@@ -511,26 +482,32 @@
       <option name="project" value="LOCAL" />
       <updated>1508799339238</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Merge branches 'adverts-tracker-landing' and 'gh-pages' of https://github.com/gasperr/ads-tracker-landing into gh-pages&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;css/creative.css&#10;#&#9;img/landing-video.mp4&#10;#&#9;index.html&#10;#&#9;js/creative.js&#10;#&#9;js/jquery.form.js&#10;#&#9;js/jquery.js&#10;#&#9;static-webapp/slider/ninja-slider.css&#10;#&#9;static-webapp/slider/ninja-slider.js&#10;#&#9;static-webapp/slider/thumbnail-slider.css&#10;#&#9;static-webapp/slider/thumbnail-slider.js">
+      <created>1508884348654</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1508884348654</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21894000" />
+    <option name="totallyTimeSpent" value="22127000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13697916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13645943" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39834026" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41908714" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41908714" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28423238" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -538,6 +515,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39834026" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -596,21 +574,15 @@
     <MESSAGE value="- branch for new adverts-tracker-landing created" />
     <MESSAGE value="- landing page" />
     <MESSAGE value="- different photo position" />
-    <option name="LAST_COMMIT_MESSAGE" value="- different photo position" />
+    <MESSAGE value="Merge branches 'adverts-tracker-landing' and 'gh-pages' of https://github.com/gasperr/ads-tracker-landing into gh-pages&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;css/creative.css&#10;#&#9;img/landing-video.mp4&#10;#&#9;index.html&#10;#&#9;js/creative.js&#10;#&#9;js/jquery.form.js&#10;#&#9;js/jquery.js&#10;#&#9;static-webapp/slider/ninja-slider.css&#10;#&#9;static-webapp/slider/ninja-slider.js&#10;#&#9;static-webapp/slider/thumbnail-slider.css&#10;#&#9;static-webapp/slider/thumbnail-slider.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branches 'adverts-tracker-landing' and 'gh-pages' of https://github.com/gasperr/ads-tracker-landing into gh-pages&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;css/creative.css&#10;#&#9;img/landing-video.mp4&#10;#&#9;index.html&#10;#&#9;js/creative.js&#10;#&#9;js/jquery.form.js&#10;#&#9;js/jquery.js&#10;#&#9;static-webapp/slider/ninja-slider.css&#10;#&#9;static-webapp/slider/ninja-slider.js&#10;#&#9;static-webapp/slider/thumbnail-slider.css&#10;#&#9;static-webapp/slider/thumbnail-slider.js" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8177">
@@ -682,19 +654,12 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#970#1046#0" expanded="false" />
-            <marker date="1508880649010" expanded="true" signature="1868:1902" ph="..." />
+            <marker date="1508884295584" expanded="true" signature="1868:1902" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js" />
     <entry file="file://$PROJECT_DIR$/css/creative.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -738,19 +703,12 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#970#1046#0" expanded="false" />
-            <marker date="1508880649010" expanded="true" signature="1868:1902" ph="..." />
+            <marker date="1508884295584" expanded="true" signature="1868:1902" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js" />
     <entry file="file://$PROJECT_DIR$/css/creative.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -794,19 +752,12 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#970#1046#0" expanded="false" />
-            <marker date="1508880649010" expanded="true" signature="1868:1902" ph="..." />
+            <marker date="1508884295584" expanded="true" signature="1868:1902" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="31" column="23" lean-forward="false" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js" />
     <entry file="file://$USER_HOME$/Downloads/thumbnailSlider/thumbnailSlider/demo3.html" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -836,29 +787,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/font-awesome/css/font-awesome.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="3" column="27303" lean-forward="false" selection-start-line="3" selection-start-column="27303" selection-end-line="3" selection-end-column="27303" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/font-awesome/css/font-awesome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2085" column="1" lean-forward="false" selection-start-line="2085" selection-start-column="1" selection-end-line="2085" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/font-awesome/css/font-awesome.min.css" />
+    <entry file="file://$PROJECT_DIR$/font-awesome/css/font-awesome.css" />
     <entry file="file://$USER_HOME$/Downloads/thumbnailSlider/thumbnailSlider/demo3.html" />
     <entry file="file://$USER_HOME$/Downloads/jsImgSlider/jsImgSlider/demo3.html" />
-    <entry file="file://$PROJECT_DIR$/js/wow.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="124" column="98" lean-forward="false" selection-start-line="124" selection-start-column="98" selection-end-line="124" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/js/wow.min.js" />
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/structural.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -867,42 +800,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/app_pics/polo_double_1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2494" column="1" lean-forward="false" selection-start-line="2494" selection-start-column="1" selection-end-line="2494" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="6403" column="0" lean-forward="false" selection-start-line="6403" selection-start-column="0" selection-end-line="6420" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/app_pics/mustang_double_1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/app_pics/polo_double_2_educated.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery-ui.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="6" column="26110" lean-forward="false" selection-start-line="6" selection-start-column="26110" selection-end-line="6" selection-end-column="26110" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/img/app_pics/polo_double_1.png" />
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css" />
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css" />
+    <entry file="file://$PROJECT_DIR$/img/app_pics/mustang_double_1.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/app_pics/polo_double_2_educated.png" />
+    <entry file="file://$PROJECT_DIR$/js/jquery-ui.min.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/express/lib/application.js" />
     <entry file="file://$PROJECT_DIR$/js/jquery.form.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -918,59 +821,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/icon_128_v2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/poster_video.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/poster_video.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/header.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/header_2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/header-bg.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/active-bg.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/img/icon_128_v2.png" />
+    <entry file="file://$PROJECT_DIR$/img/poster_video.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/poster_video.png" />
+    <entry file="file://$PROJECT_DIR$/img/header.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/header_2.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/header-bg.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/active-bg.png" />
     <entry file="file://$PROJECT_DIR$/js/i18n.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1508874550638" expanded="true" signature="11886:11897" ph="{...}" />
-            <marker date="1508874550638" expanded="true" signature="11886:11979" ph="{...}" />
-            <marker date="1508874550638" expanded="true" signature="11922:11977" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/img/phones.png" />
-    <entry file="file://$PROJECT_DIR$/img/pixl.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/img/pixl.png" />
     <entry file="file://$PROJECT_DIR$/js/ga-scrolling.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -979,14 +846,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="2303" column="30" lean-forward="false" selection-start-line="2303" selection-start-column="30" selection-end-line="2303" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/js/bootstrap.js" />
     <entry file="file://$PROJECT_DIR$/css/creative.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="861">
@@ -995,18 +855,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
+    <entry file="file://$PROJECT_DIR$/server.js" />
+    <entry file="file://$PROJECT_DIR$/img/thumbs-bar.gif" />
+    <entry file="file://$PROJECT_DIR$/js/creative.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="12" lean-forward="false" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-          <folding />
+        <state relative-caret-position="266">
+          <caret line="69" column="16" lean-forward="false" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#970#1046#0" expanded="false" />
+            <marker date="1508884295584" expanded="true" signature="1868:1902" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="403" column="85" lean-forward="false" selection-start-line="403" selection-start-column="72" selection-end-line="403" selection-end-column="93" />
+        <state relative-caret-position="658">
+          <caret line="407" column="34" lean-forward="true" selection-start-line="407" selection-start-column="34" selection-end-line="407" selection-end-column="34" />
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1027,23 +893,6 @@
             <element signature="n#style#0;n#textarea#0;n#div#1;n#form#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#p#0;n#div#2;n#div#0;n#div#1;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/thumbs-bar.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/creative.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="674">
-          <caret line="93" column="7" lean-forward="true" selection-start-line="93" selection-start-column="7" selection-end-line="93" selection-end-column="7" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#970#1046#0" expanded="false" />
-            <marker date="1508880649010" expanded="true" signature="1868:1902" ph="..." />
           </folding>
         </state>
       </provider>
