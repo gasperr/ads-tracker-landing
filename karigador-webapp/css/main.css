@@ -1,0 +1,186 @@
+iframe.main {
+    width: 100%;
+    height: 600px;
+}
+
+img.video {
+    width: 550px;
+}
+
+.video-height {
+    height: 550px;
+}
+
+.loader {
+    background: url("../css/img/loading.gif") no-repeat center center;
+}
+
+.video-gone {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+.video-gone:hover{
+    cursor: pointer;
+    opacity: .7;
+}
+.video-gone-smiley{
+    height: 150px;
+}
+
+body.bg {
+    background: url("img/Blue-sea-ship-sky-wallpaper.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.current-info {
+    margin-left: 30% !important;
+}
+
+.current-value {
+    color: black;
+}
+
+.navbar-header {
+    width: 100%;
+}
+
+.gift {
+    /*background: url("img/gift_wrapped_by_jaycustom.png") center center fixed;*/
+    /*opacity:    0.5;*/
+    width: 100%;
+    height: 100%;
+    z-index: 99999999;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+.gift-open {
+    /*margin-top: 400px;*/
+    /*margin-left: 800px;*/
+    height: 70px;
+    width: 190px;
+    font-size: 30px;
+    position: fixed;
+    bottom: 20px;
+    right: 150px;
+    background-color: #bc0000;
+    border-color: white;
+    z-index: 999999999;
+}
+
+.main-wrapper .bx-wrapper, .bx-viewport {
+    height: 445px !important;
+}
+
+.weather-icon {
+    height: 75px;
+}
+
+.float-right{
+    float: right;
+}
+
+.min-temp, .max-temp {
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.min-temp {
+    font-size: 15px;
+}
+
+.main-temp-wrapper {
+    float: right;
+    margin-right: 55px;
+    margin-top: 10px;
+}
+
+.bx-wrapper img {
+    display: initial;
+}
+
+.temp-val, .other-val {
+    font-weight: 600;
+}
+
+.weather-title {
+    font-weight: 500;
+}
+
+.stat.hakom_info_bearer{
+    float: right;
+}
+dl{
+    margin-top: 0;
+    min-width: 64px;
+    float: left;
+    padding: 0 10px 0 0;
+}
+.progress{
+    /* margin-bottom: 20px; */
+    overflow: hidden;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+    min-width: 64px;
+    display: block;
+    width: 64px;
+    height: 32px;
+    padding: 0;
+    border: 0;
+    background-color: #efefef;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 4px #999;
+    margin-bottom: 0;
+    text-align: center;
+}
+.status .progress > span {
+    background: #efefef;
+    line-height: 32px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+dd{
+    color: #333;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+.net .progress > span {
+    width: 100%;
+    box-shadow: inset 0 1px 0 #37bcf4;
+    background: #0091d0;
+    background: -moz-linear-gradient(top,#0091d0 0,#007ab0 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#0091d0),color-stop(100%,#007ab0));
+    background: -webkit-linear-gradient(top,#0091d0 0,#007ab0 100%);
+    background: -o-linear-gradient(top,#0091d0 0,#007ab0 100%);
+    background: -ms-linear-gradient(top,#0091d0 0,#007ab0 100%);
+    background: linear-gradient(to bottom,#0091d0 0,#007ab0 100%);
+    display: block;
+    height: 32px;
+    border-radius: 3px;
+}
+.sms-icon{
+    margin-top: 15px;
+    float: right;
+}
+.sms-icon:hover{
+    cursor: pointer;
+}
+.sms-list{
+    max-width: 900px;
+}
