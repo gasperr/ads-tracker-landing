@@ -79,6 +79,12 @@
         $("#click-for-contact").trigger("click");
     });
 
+    $("#want-osnovna-license").click(function (e) {
+        e.preventDefault();
+        $("#text-input").val("Želim dostop z osnovno+ licenco.");
+        $("#click-for-contact").trigger("click");
+    });
+
     $("#want-advanced-license").click(function (e) {
         e.preventDefault();
         $("#text-input").val("Želim dostop z napredno licenco.");
