@@ -3,7 +3,7 @@
  */
 
 var KARIDAGOR = {
-    url: "http://api.openweathermap.org/data/2.5/forecast/daily?q=Karigador&mode=json&units=metric&cnt=15&appid=0df5e16001338d762d1cc4797f94049e",
+    url: "http://api.openweathermap.org/data/2.5/forecast/daily?q=Umag&mode=json&units=metric&cnt=15&appid=0df5e16001338d762d1cc4797f94049e",
     icons: "http://openweathermap.org/img/w/",
     getForecast: function () {
         $.get(KARIDAGOR.url, function (data) {
