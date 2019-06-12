@@ -267,10 +267,6 @@ $(document).ready(function () {
 
     KARIDAGOR.getForecast();
     KARIDAGOR.initIframes();
-    KARIDAGOR.initRPISensors();
-    KARIDAGOR.initMobileData();
-    KARIDAGOR.initSMS();
-
 
     $('.weather-slider').bxSlider({
         slideWidth: 2500,
