@@ -82,6 +82,9 @@ var KARIDAGOR = {
         $(".video2").on('load', function () {
             $(".loader2").css("background", "none");
         });
+        $(".video3").on('load', function () {
+            $(".loader3").css("background", "none");
+        });
 
     },
     initRPISensors: function () {
